@@ -1,9 +1,13 @@
 #include "Input.hh"
+#include <iostream>
+#include <string>
 
-Input::Input()
+std::string Input::get_input(const std::string &what_to_get)
 {
-}
+    std::string input;
 
-Input::~Input()
-{
+    std::cout << what_to_get << std::endl;
+    std::getline(std::cin, input);
+
+    return input;
 }
