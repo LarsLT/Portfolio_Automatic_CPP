@@ -8,7 +8,7 @@ private:
     std::string make_table(Args... args);
 
     template <typename... Args>
-    std::string make_onderbouwing(Args... args);
+    std::string make_table_lines(Args... args);
 
     template <typename... Args>
     std::string make_feedback_or_questions(Args... args);

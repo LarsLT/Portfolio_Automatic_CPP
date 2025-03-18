@@ -6,5 +6,8 @@
 
 int main()
 {
+    Table table;
+    std::string table2 = table.make_everything();
 
+    std::cout << table2 << std::endl;
 }
