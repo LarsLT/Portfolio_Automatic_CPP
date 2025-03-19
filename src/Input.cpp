@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <optional>
 
 bool Input::wil_je_verder(const std::string &what)
 {
@@ -29,7 +30,7 @@ std::string Input::get_input(const std::string &what_to_get)
     return input;
 }
 
-std::vector<std::vector<std::string>> Input::get_multiple_input(const std::string &what_to_get, int amount_per_item, const std::string &one, const std::string &two, const std::string &three)
+std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(const std::string &what_to_get, int amount_per_item, const std::string &one, const std::string &two, const std::string &three)
 {
     std::vector<std::vector<std::string>> items;
 
@@ -39,7 +40,7 @@ std::vector<std::vector<std::string>> Input::get_multiple_input(const std::strin
 
     if (!wil_je_verder(what_to_get))
     {
-        return items; // maak dit std::options;
+        return std::nullopt;
     }
 
     while (true)

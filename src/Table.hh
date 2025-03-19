@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <optional>
 
 class Table
 {
@@ -23,7 +24,7 @@ private:
         return table;
     }
 
-    std::string make_feedback_or_questions(const std::vector<std::vector<std::string>> &items);
+    std::optional<std::string> make_feedback_or_questions(const std::optional<std::vector<std::vector<std::string>>> &opt_items);
 
     bool is_valid_link(const std::string &link);
 

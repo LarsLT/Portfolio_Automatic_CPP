@@ -7,18 +7,23 @@
 #include <ranges>
 #include <iterator>
 #include <algorithm>
+#include <optional>
 
 #include "Input.hh"
 
-std::string Table::make_feedback_or_questions(const std::vector<std::vector<std::string>> &items)
+std::optional<std::string> Table::make_feedback_or_questions(const std::optional<std::vector<std::vector<std::string>>> &opt_items)
 {
+
+    if (!opt_items.has_value())
+    {
+        return std::nullopt;
+    }
+
     std::string q_f = "";
 
-    if (items.size() == 0)
-    {
-        return std::string();
-    }
-    else if (items[0].size() == 2)
+    std::vector<std::vector<std::string>> items = opt_items.value();
+
+    if (items[0].size() == 2)
     {
         std::ranges::for_each(items, [&q_f](const std::vector<std::string> &item)
                               { q_f += std::format("- {}\n    - {}", item[0], item[1]); });
@@ -66,10 +71,10 @@ std::string Table::make_everything()
 
     std::string onderbouwing = Input::get_input("geef me onderbouwing");
 
-    std::vector<std::vector<std::string>> questions = Input::get_multiple_input("questions", 3, "geef me de vraag", "geef me het antwoord", "geef me je verwerk");
-    std::vector<std::vector<std::string>> feedback = Input::get_multiple_input("feedback", 2, "geef me de feedback", "geef me je verwerk");
+    std::optional<std::vector<std::vector<std::string>>> questions = Input::get_multiple_input("questions", 3, "geef me de vraag", "geef me het antwoord", "geef me je verwerk");
+    std::optional<std::vector<std::vector<std::string>>> feedback = Input::get_multiple_input("feedback", 2, "geef me de feedback", "geef me je verwerk");
 
-    std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback), make_feedback_or_questions(questions));
+    std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback).value_or("Geen feedback\n"), make_feedback_or_questions(questions).value_or("geen vragen\n"));
 
     std::string onderbouwing_text = "Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.";
     std::string feedback_question_text = "Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.";
