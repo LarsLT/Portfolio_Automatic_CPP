@@ -8,7 +8,7 @@ int main()
 {
     Portfolio portfolio("C:/Projects/zelf/Portfolio_Automatic_C++/portfolio.md");
 
-    std::string table = Table::make_everything();
+    // std::string table = Table::make_everything();
 
-    portfolio.update_portfolio(table);
+    portfolio.update_algemeen();
 }

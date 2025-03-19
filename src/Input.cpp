@@ -3,22 +3,7 @@
 #include <string>
 #include <vector>
 #include <optional>
-
-bool Input::wil_je_verder(const std::string &what)
-{
-    std::cout << "Wil je verder met " << what << "?\n";
-
-    std::string input;
-
-    std::getline(std::cin, input);
-
-    if (input == "J")
-    {
-        return true;
-    }
-
-    return false;
-}
+#include <format>
 
 std::string Input::get_input(const std::string &what_to_get)
 {
@@ -38,7 +23,7 @@ std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(c
 
     std::cout << what_to_get << std::endl;
 
-    if (!wil_je_verder(what_to_get))
+    if (!get_yes_no(std::format("Wil je verder met ()?\n", what_to_get)))
     {
         return std::nullopt;
     }
@@ -73,7 +58,7 @@ std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(c
             items.push_back(item);
             item.clear();
 
-            if (!wil_je_verder(what_to_get))
+            if (!get_yes_no(std::format("Wil je verder met ()?\n", what_to_get)))
             {
                 return items; // maak dit std::options;
             }
@@ -81,4 +66,20 @@ std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(c
     }
 
     return items;
+}
+
+bool Input::get_yes_no(const std::string &what_to_get)
+{
+    std::cout << what_to_get;
+
+    std::string input;
+
+    std::getline(std::cin, input);
+
+    if (input == "J")
+    {
+        return true;
+    }
+
+    return false;
 }
