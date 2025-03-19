@@ -80,7 +80,7 @@ std::string Table::make_everything()
     std::string onderbouwing_text = "Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.";
     std::string feedback_question_text = "Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.";
 
-    std::string table = make_table("---\n\n", table1, table2, table3, "\n", onderbouwing_text, onderbouwing, "\n", feedback_question_text, feedback_question, "\n---");
+    std::string table = make_table("\n", table1, table2, table3, "\n", onderbouwing_text, onderbouwing, "\n", feedback_question_text, feedback_question, "\n---");
 
     return table;
 }

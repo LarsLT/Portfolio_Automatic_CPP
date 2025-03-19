@@ -6,5 +6,9 @@
 
 int main()
 {
-    std::cout << Table::make_everything();
+    Portfolio portfolio("C:/Projects/zelf/Portfolio_Automatic_C++/portfolio.md");
+
+    std::string table = Table::make_everything();
+
+    portfolio.update_portfolio(table);
 }
