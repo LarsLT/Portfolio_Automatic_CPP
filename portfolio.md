@@ -27,12 +27,12 @@
 
 ## Portfolio Technische Informatica (TI) semester 4 (S4)
 
-| Onderwerp       | Graag invullen         |
-| --------------- | ---------------------- |
-| *Peilmoment*    | `peilmoment 1/2/3/4`   |
-| *Naam student*  | `naam van de student`  |
-| *Studentnummer* | `studentnummer`        |
-| *Datum*         | `datum van oplevering` |
+| Onderwerp       | Graag invullen |
+| --------------- | -------------- |
+| *Peilmoment*    | `peilmoment 1` |
+| *Naam student*  | `Lars Tokkie`  |
+| *Studentnummer* | `1849354`      |
+| *Datum*         | `20-03-2025`   |
 
 
 Beste student, 
@@ -63,17 +63,14 @@ Succes met de uitwerking van de verantwoording!
 ## Algemeen
 
 *Waar ik het meest trots op ben:*
-    
-    --
-    
+- Ik ben het meest trots op de code vooruitgangen die ik nu al heb gemaakt, dit jaar ben ik voor het eerst bezig geweest met regex, algorithms/ranges/views/iterator & Variadic templatess in C++, na wel al een beetje ervaring met Rust, en denk dat ik dit goed begin te begrijpen (copium :) )
 
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
-
-    --
+- De afgelopen periode vond ik het moeilijk om een goede tech lead te zijn van mijn team en ga er daarom voor zorgen dat ik dit de volgende sprint/periode dit beter ga doen, om hiervoor te zorgen ga ik, zodra ik beter ben, naar Jan of Nick om ze vragen te stellen hoe ik hier beter in kan worden.
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
+- Ik wil doorgaan met veel beter worden in C++ door Concepts/sfinea/CRTP/etc te begin te begrijpen;
 
-    --
 ---
 
 ## Leeruitkomsten
