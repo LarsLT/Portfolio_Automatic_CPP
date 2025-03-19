@@ -26,12 +26,12 @@ std::optional<std::string> Table::make_feedback_or_questions(const std::optional
     if (items[0].size() == 2)
     {
         std::ranges::for_each(items, [&q_f](const std::vector<std::string> &item)
-                              { q_f += std::format("- {}\n    - {}", item[0], item[1]); });
+                              { q_f += std::format("- {}\n  - {}\n", item[0], item[1]); });
     }
     else if (items[0].size() == 3)
     {
         std::ranges::for_each(items, [&q_f](const std::vector<std::string> &item)
-                              { q_f += std::format("- {}\n    - {}\n    - {}\n", item[0], item[1], item[2]); });
+                              { q_f += std::format("- {}\n  - {}\n  - {}\n", item[0], item[1], item[2]); });
     }
 
     return q_f;
@@ -69,12 +69,13 @@ std::string Table::make_everything()
     std::string table2 = make_table_lines("---", "---", "---");
     std::string table3 = make_table_lines(item, beschrijving, link);
 
-    std::string onderbouwing = Input::get_input("geef me onderbouwing");
+    std::string onderbouwing = "- ";
+    onderbouwing += Input::get_input("geef me onderbouwing");
 
     std::optional<std::vector<std::vector<std::string>>> questions = Input::get_multiple_input("questions", 3, "geef me de vraag", "geef me het antwoord", "geef me je verwerk");
     std::optional<std::vector<std::vector<std::string>>> feedback = Input::get_multiple_input("feedback", 2, "geef me de feedback", "geef me je verwerk");
 
-    std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback).value_or("Geen feedback\n"), make_feedback_or_questions(questions).value_or("geen vragen\n"));
+    std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback).value_or("- Geen feedback"), make_feedback_or_questions(questions).value_or("- geen vragen"));
 
     std::string onderbouwing_text = "Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.";
     std::string feedback_question_text = "Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.";
