@@ -1,17 +1,33 @@
 #pragma once
 #include <string>
+#include <vector>
 
 class Table
 {
 private:
-    template <typename... Args>
-    std::string make_table(Args... args);
+    template <typename... Args> // waarom moet dit in .hh file
+        requires(std::convertible_to<Args, std::string> && ...)
+    std::string make_table(Args... args)
+    {
+        std::string table = "";
+        ((table += std::string(args) + "\n"), ...);
+        return table;
+    }
 
-    template <typename... Args>
-    std::string make_table_lines(Args... args);
+    template <typename... Args> // waarom moet dit in .hh file
+        requires(std::convertible_to<Args, std::string> && ...)
+    std::string make_table_lines(Args... args)
+    {
+        std::string table = "|";
+        ((table += " " + std::string(args) + " |"), ...);
+        return table;
+    }
 
-    template <typename... Args>
-    std::string make_feedback_or_questions(Args... args);
+    std::string make_feedback_or_questions(const std::vector<std::vector<std::string>> &items);
+
+    bool is_valid_link(const std::string &link);
+
+    std::string get_link(const std::string &what_to_get, const std::string &link_naam);
 
 public:
     std::string make_everything();
