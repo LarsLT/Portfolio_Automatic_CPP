@@ -91,31 +91,7 @@ Indicatoren
 
 **Leeruitkomst 1 Persoonlijke opdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
 **Leeruitkomst 1 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
 
 ### Leeruitkomst 2 Ontwerpen
 
@@ -128,33 +104,7 @@ Indicatoren:
 
 **Leeruitkomst 2 Persoonlijke opdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
 **Leeruitkomst 2 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 3 Adviseren
 
@@ -167,33 +117,7 @@ Indicatoren:
 
 **Leeruitkomst 3 Persoonlijke opdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
 **Leeruitkomst 3 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 4 Realiseren
 
@@ -208,22 +132,10 @@ Indicatoren:
 - C++<->Python opdrachten
 - Creational/Structural design pattern opdrachten
 ---
+<!-- waarom deze niet orgineel -->
+**Leeruitkomst 4 Persoonlijke opdrachten:**
 
 **Leeruitkomst 4 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 5 Beheren
 
@@ -235,22 +147,10 @@ Indicatoren:
 - Opdrachten debugging/tooling
 - Testverslag
 ---
+<!-- waarom deze niet orgineel -->
+**Leeruitkomst 5 Persoonlijke opdrachten:**
 
 **Leeruitkomst 5 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 6 Toekomstgericht organiseren
 
@@ -262,22 +162,10 @@ Indicatoren:
 - Sprintverslagen
 
 ---
+<!-- waarom deze niet orgineel -->
+**Leeruitkomst 6 Persoonlijke opdrachten:**
 
 **Leeruitkomst 6 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 7 Doelgericht interacteren
 
@@ -292,33 +180,7 @@ Indicatoren:
 
 **Leeruitkomst 7 Persoonlijke opdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
 **Leeruitkomst 7 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 8 Persoonlijk leiderschap
 
@@ -330,21 +192,9 @@ Indicatoren:
 
 ---
 
+**Leeruitkomst 8 Persoonlijke opdrachten:**
+
 **Leeruitkomst 8 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
 
 ### Leeruitkomst 9 Onderzoek probleem oplossen
 
@@ -357,28 +207,4 @@ Indicatoren:
 
 **Leeruitkomst 9 Persoonlijke opdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
 **Leeruitkomst 9 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-| ------------------ | ------------------------------------------------------ | ------------------------ |
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
