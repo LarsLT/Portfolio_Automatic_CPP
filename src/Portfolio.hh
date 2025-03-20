@@ -9,7 +9,7 @@ class Portfolio
 {
 private:
     std::optional<int> LU_number = std::nullopt;
-    std::optional<std::string> zelf_groep_string = std::nullopt;
+    std::optional<std::string> zelf_groep_string = std::nullopt; // kan niet 6 persoonlijk zijn
 
     Path path;
 

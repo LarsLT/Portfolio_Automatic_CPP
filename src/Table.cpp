@@ -39,7 +39,7 @@ std::optional<std::string> Table::make_feedback_or_questions(const std::optional
 
 bool Table::is_valid_link(const std::string &link)
 {
-    const std::regex link_regex(R"(^(https?:\/\/)([a-zA-Z0-9\-\.]+)\.(nl|com)$)");
+    const std::regex link_regex(R"(^(https?:\/\/(?:[a-zA-Z0-9\-\.]+)\.([a-zA-Z]{2,})(?:\/[^\s]*)?)$)");
     return std::regex_match(link, link_regex);
 }
 
@@ -75,7 +75,7 @@ std::string Table::make_everything()
     std::optional<std::vector<std::vector<std::string>>> questions = Input::get_multiple_input("questions", 3, "geef me de vraag", "geef me het antwoord", "geef me je verwerk");
     std::optional<std::vector<std::vector<std::string>>> feedback = Input::get_multiple_input("feedback", 2, "geef me de feedback", "geef me je verwerk");
 
-    std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback).value_or("- Geen feedback"), make_feedback_or_questions(questions).value_or("- geen vragen"));
+    std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback).value_or("- Geen feedback"), make_feedback_or_questions(questions).value_or("- Geen vragen"));
 
     std::string onderbouwing_text = "Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.";
     std::string feedback_question_text = "Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.";

@@ -23,7 +23,7 @@ std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(c
 
     std::cout << what_to_get << std::endl;
 
-    if (!get_yes_no(std::format("Wil je verder met ()?\n", what_to_get)))
+    if (!get_yes_no(std::format("Wil je verder met {}?\n", what_to_get)))
     {
         return std::nullopt;
     }
@@ -58,7 +58,7 @@ std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(c
             items.push_back(item);
             item.clear();
 
-            if (!get_yes_no(std::format("Wil je verder met ()?\n", what_to_get)))
+            if (!get_yes_no(std::format("Wil je verder met {}?\n", what_to_get)))
             {
                 return items; // maak dit std::options;
             }

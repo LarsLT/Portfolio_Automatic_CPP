@@ -16,22 +16,9 @@
 
 void Portfolio::add_item(const std::string &added_line, std::optional<std::string> find_line = std::nullopt)
 {
-    if (LU_number.has_value()) // TODO i dont like 2 if in 1
-    {
-        std::cout << "klopt dit?\n"
-                  << zelf_groep_string.value() << std::endl;
 
-        if (Input::get_yes_no(""))
-        {
-            get_leeruitkomst();
-            get_type();
-        }
-    }
-    else
-    {
-        get_leeruitkomst();
-        get_type();
-    }
+    get_leeruitkomst();
+    get_type();
 
     std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
@@ -47,7 +34,7 @@ void Portfolio::add_item(const std::string &added_line, std::optional<std::strin
     {
         if (line.find(find_line.value_or(zelf_groep_string.value())) != std::string::npos)
         {
-            line += "\n" + added_line;
+            line += added_line;
         }
         outputFile << line << "\n";
     }
