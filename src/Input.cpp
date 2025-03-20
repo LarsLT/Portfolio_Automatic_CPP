@@ -4,9 +4,12 @@
 #include <vector>
 #include <optional>
 #include <format>
+#include <stdlib.h>
 
 std::string Input::get_input(const std::string &what_to_get)
 {
+    clear_console();
+
     std::string input;
 
     std::cout << what_to_get << std::endl;
@@ -17,6 +20,8 @@ std::string Input::get_input(const std::string &what_to_get)
 
 std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(const std::string &what_to_get, int amount_per_item, const std::string &one, const std::string &two, const std::string &three)
 {
+    clear_console();
+
     std::vector<std::vector<std::string>> items;
 
     std::vector<std::string> item;
@@ -70,6 +75,8 @@ std::optional<std::vector<std::vector<std::string>>> Input::get_multiple_input(c
 
 bool Input::get_yes_no(const std::string &what_to_get)
 {
+    clear_console();
+
     std::cout << what_to_get;
 
     std::string input;
@@ -82,4 +89,9 @@ bool Input::get_yes_no(const std::string &what_to_get)
     }
 
     return false;
+}
+
+void Input::clear_console()
+{
+    system("cls");
 }
