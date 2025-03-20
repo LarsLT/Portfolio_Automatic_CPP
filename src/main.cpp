@@ -6,9 +6,7 @@
 
 int main()
 {
-    Portfolio portfolio("C:/Projects/zelf/Portfolio_Automatic_C++/portfolio.md");
+    Path path("C:/Projects/zelf/Portfolio_Automatic_C++/storage/storage.txt");
 
-    // std::string table = Table::make_everything();
-
-    portfolio.update_algemeen();
+    path.update_path(path.PORTFOLIO);
 }
