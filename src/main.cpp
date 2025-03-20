@@ -6,5 +6,12 @@
 
 int main()
 {
-    Portfolio portfolio("C:/Projects/zelf/Portfolio_Automatic_C++/storage/storage.txt");
+    while (true)
+    {
+        Portfolio portfolio("C:/Projects/zelf/C++/Portfolio_Automatic_C--/storage/storage.txt");
+
+        std::string table = Table::make_everything();
+
+        portfolio.add_item(table, std::nullopt);
+    }
 }

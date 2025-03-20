@@ -132,7 +132,71 @@ Indicatoren:
 <!-- waarom deze niet orgineel -->
 **Leeruitkomst 4 Persoonlijke opdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Gazebo opdrachten | Ik heb de Gazebo opdrachten gemaakt | [canvas](https://canvas.hu.nl/courses/44572/assignments/343364)[canvas2](https://canvas.hu.nl/courses/44572/assignments/343365) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- door dit te doen heb ik ervaring gekregen met simulatie.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| STL opdrachten | Ik heb de STL opdracht gemaakt, hierdoor heb ik meer ervaring met de Ranges gekregen | [Github Folder](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/stl/src) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik meer geleerd van de STL en ben ik een beter developer geworden
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Gazebo wereld | Ik heb voor mijn team een wereld gemaakt waarin we een water level hebben & een eiland met een grot zodat we onze robot kunnen testen | [.SDF file](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/Controller_support/Gazebo/OceanGate.sdf) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik laten zien dat ik begrijp hoe ik een sdf maak en werk met de algemaakte plugin
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Controller Plugin | Ik heb voor het project een plugin geschreven waarmee mijn team een controller kan uitlezen tijdens de simulatie | [Github Folder](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/Controller_support/Gazebo) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik laten zien dat ik een plugin kan schrijven voor Gazebo
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 **Leeruitkomst 4 Groepsopdrachten:**
+
 
 ### Leeruitkomst 5 Beheren
 
@@ -144,8 +208,37 @@ Indicatoren:
 - Opdrachten debugging/tooling
 - Testverslag
 ---
-<!-- waarom deze niet orgineel -->
 **Leeruitkomst 5 Persoonlijke opdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Docker | Ik heb voor dat ik begon met DevContainer me eigen docker file gemaakt om C++ code overal te runnen | [Github folder](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/HelloWorld) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik laten zien dat ik een ontwikken omgeving overal kan opzetten en gebruik kan maken van de debug tools
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| DevContainer | Ik heb een devcontainer opgezet en daarin code geschreven | [Github folder](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/DevContainer) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de Devcontainer opdracht te maken heb ik laten zien dat ik dit kan toepassen voor mijn eigen gebruik
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
 
 **Leeruitkomst 5 Groepsopdrachten:**
 
@@ -159,10 +252,38 @@ Indicatoren:
 - Sprintverslagen
 
 ---
-<!-- waarom deze niet orgineel -->
-**Leeruitkomst 6 Persoonlijke opdrachten:**
-
 **Leeruitkomst 6 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Scrum Board | Tijdens dit project werken we met een scrum board zodat we kunnen zien hoever we zijn. | [ScrumBoard](https://github.com/orgs/TICT-TV2SE4-24-3-V/projects/14/views/2) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door een scrumboard te gebruiken zorgen we ervoor dat het project gestructureerd opgezet, uitgevoerd en opgeleverd
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint verslag ](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Sprint-verslag.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen hebben we laten zien dat we onze sprints kunnen reviewen en daardoor een beter sprint kunnen maken
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
 
 ### Leeruitkomst 7 Doelgericht interacteren
 
@@ -179,6 +300,21 @@ Indicatoren:
 
 **Leeruitkomst 7 Groepsopdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint verslag ](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Sprint-verslag.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen hebben we laten zien dat we onze sprints kunnen reviewen en daardoor een beter sprint kunnen maken
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 ### Leeruitkomst 8 Persoonlijk leiderschap
 
 De student bereidt zich voor op studie- en loopbaankeuzes. De student evalueert hierbij persoonlijke ambities en kwaliteiten in relatie tot de gewenste positionering in het werkveld. De student kan deze effectief communiceren in bv sollicitatie brief of gesprek.
@@ -191,7 +327,41 @@ Indicatoren:
 
 **Leeruitkomst 8 Persoonlijke opdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Sollicitatie brief en CV | Ik heb voor mijn project keuze een sollicitatie brief & cv gemaakt | [Canvas](https://canvas.hu.nl/courses/44572/assignments/344565) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen ben ik bezig geweeste met het voorbereiden op mijn SLBkeuze
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Check canvas
+  - Ik heb de foute punten uit mijn CV en Sollicitatie brief gehaald en beide geupdate met de nieuwe feedback
+
+- Geen vragen
+
+---
+
+
 **Leeruitkomst 8 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Team Contract | We hebben als team een contract opgezet met elkaar | [Team Contract](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/teamcontract.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen hbben mijn team en ik laten zien dat we een contract kunnen opstellen met elkaar en dit samen kunnen volgen.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 ### Leeruitkomst 9 Onderzoek probleem oplossen
 
