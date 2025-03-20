@@ -6,7 +6,5 @@
 
 int main()
 {
-    Path path("C:/Projects/zelf/Portfolio_Automatic_C++/storage/storage.txt");
-
-    path.update_path(path.PORTFOLIO);
+    Portfolio portfolio("C:/Projects/zelf/Portfolio_Automatic_C++/storage/storage.txt");
 }

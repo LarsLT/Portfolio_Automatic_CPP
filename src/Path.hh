@@ -12,17 +12,16 @@ public:
     enum Paths
     {
         PORTFOLIO,
-        GEMAAKT,
         STORAGE,
     };
 
-    std::optional<std::string> get_path(Paths path);
+    std::optional<std::string> get_path(const Paths &path);
 
-    void update_path(Paths path);
+    void update_path(const Paths &path);
 
-    Path(std::string path);
+    Path(const std::string &path);
 
 private:
-    void set_paths(std::string path);
-    void update_path(std::string path, Paths p);
+    void set_paths(const std::string &path);
+    void update_path(const std::string &path, const Paths &p);
 };

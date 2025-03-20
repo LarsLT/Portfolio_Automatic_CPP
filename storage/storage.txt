@@ -1,3 +1,2 @@
 Portfolio: C:/Projects/zelf/Portfolio_Automatic_C++/portfolio.md
-Gemaakt: C:/Projects/zelf/Portfolio_Automatic_C++/storage/gemaakt.txt
 storage: C:/Projects/zelf/Portfolio_Automatic_C++/storage/storage.txt

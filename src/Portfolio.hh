@@ -4,19 +4,22 @@
 #include <regex>
 #include <optional>
 
+#include "Path.hh"
 class Portfolio
 {
 private:
-    std::string path;
     std::optional<int> LU_number = std::nullopt;
     std::optional<std::string> zelf_groep_string = std::nullopt;
 
+    Path path;
+
 public:
-    Portfolio(const std::string &path);
+    Portfolio(const std::string &path_naar_storage) : path(Path(path_naar_storage)) {};
 
     void add_item(const std::string &added_line, std::optional<std::string> find_line);
 
     void update_algemeen();
+
 
 private:
     void override_item(const std::string &new_line, const std::regex &pattern);
@@ -25,6 +28,8 @@ private:
     void get_leeruitkomst();
 
     void get_type();
+
+    void store_item(const std::string &item, const std::string &link);
 };
 
 /*

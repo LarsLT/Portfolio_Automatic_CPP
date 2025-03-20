@@ -11,7 +11,7 @@
 #include <regex>
 #include <format>
 
-void Path::set_paths(std::string path)
+void Path::set_paths(const std::string &path)
 {
     std::ifstream inputFile(path);
 
@@ -34,8 +34,6 @@ void Path::set_paths(std::string path)
 
             if (key == "Portfolio")
                 portfolio_path = value;
-            else if (key == "Gemaakt")
-                gemaakt_path = value;
             else if (key == "storage")
                 storage_path = value;
         }
@@ -44,7 +42,7 @@ void Path::set_paths(std::string path)
     inputFile.close();
 }
 
-void Path::update_path(std::string path, Paths p)
+void Path::update_path(const std::string &path, const Paths &p)
 {
     std::regex pattern;
     std::string new_line;
@@ -55,11 +53,6 @@ void Path::update_path(std::string path, Paths p)
         pattern = std::regex(R"(Portfolio:\s*[A-Z]:/[^ \n\r]+)");
         new_line = std::format("Portfolio: {}", path);
         portfolio_path = path;
-        break;
-    case GEMAAKT:
-        pattern = std::regex(R"(Gemaakt:\s*[A-Z]:/[^ \n\r]+)");
-        new_line = std::format("Gemaakt: {}", path);
-        gemaakt_path = path;
         break;
     case STORAGE:
         pattern = std::regex(R"(Storage:\s*[A-Z]:/[^ \n\r]+)");
@@ -95,15 +88,12 @@ void Path::update_path(std::string path, Paths p)
     std::rename("temp.txt", storage_path.value().c_str());
 }
 
-std::optional<std::string> Path::get_path(Paths path)
+std::optional<std::string> Path::get_path(const Paths &path)
 {
     switch (path)
     {
     case PORTFOLIO:
         return portfolio_path;
-        break;
-    case GEMAAKT:
-        return gemaakt_path;
         break;
     case STORAGE:
         return storage_path;
@@ -113,17 +103,13 @@ std::optional<std::string> Path::get_path(Paths path)
     return std::nullopt;
 }
 
-void Path::update_path(Paths path)
+void Path::update_path(const Paths &path)
 {
     switch (path)
     {
     case PORTFOLIO:
         portfolio_path = Input::get_input("geef het path naar je portfolio.");
         update_path(portfolio_path.value(), path);
-        break;
-    case GEMAAKT:
-        gemaakt_path = Input::get_input("geef het path naar je gemaakt file.");
-        update_path(gemaakt_path.value(), path);
         break;
     case STORAGE:
         storage_path = Input::get_input("geef het path naar je stroage file.");
@@ -132,7 +118,7 @@ void Path::update_path(Paths path)
     }
 }
 
-Path::Path(std::string path)
+Path::Path(const std::string &path)
 {
     set_paths(path);
 }
