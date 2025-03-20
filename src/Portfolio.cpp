@@ -33,7 +33,7 @@ void Portfolio::add_item(const std::string &added_line, std::optional<std::strin
         get_type();
     }
 
-    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n"));
+    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
 
     if (!inputFile || !outputFile)
@@ -55,8 +55,8 @@ void Portfolio::add_item(const std::string &added_line, std::optional<std::strin
     inputFile.close();
     outputFile.close();
 
-    std::remove(path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n").c_str());
-    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n").c_str());
+    std::remove(path.get_path(path.PORTFOLIO).value().c_str());
+    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
 }
 
 void Portfolio::update_algemeen()
@@ -84,7 +84,7 @@ void Portfolio::update_algemeen()
 
 void Portfolio::override_item(const std::string &new_line, const std::regex &pattern)
 {
-    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n"));
+    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
 
     if (!inputFile || !outputFile)
@@ -107,13 +107,13 @@ void Portfolio::override_item(const std::string &new_line, const std::regex &pat
     inputFile.close();
     outputFile.close();
 
-    std::remove(path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n").c_str());
-    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n").c_str());
+    std::remove(path.get_path(path.PORTFOLIO).value().c_str());
+    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
 }
 
 void Portfolio::override_next_item(const std::string &new_line, std::string find_line)
 {
-    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n"));
+    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
 
     if (!inputFile || !outputFile)
@@ -142,8 +142,8 @@ void Portfolio::override_next_item(const std::string &new_line, std::string find
     inputFile.close();
     outputFile.close();
 
-    std::remove(path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n").c_str());
-    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value_or(std::cerr << "\nPortfolio path is wrong\n").c_str());
+    std::remove(path.get_path(path.PORTFOLIO).value().c_str());
+    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
 }
 
 void Portfolio::get_leeruitkomst()
