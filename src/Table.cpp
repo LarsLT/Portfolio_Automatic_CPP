@@ -60,19 +60,30 @@ std::string Table::get_link(const std::string &what_to_get, const std::string &l
 
 std::string Table::make_everything()
 {
+    Input::clear_console();
     std::string item = Input::get_input("geef me item");
+   
+    Input::clear_console();
     std::string beschrijving = Input::get_input("geef me beschrijving");
+   
+    Input::clear_console();
     std::string link_naam = Input::get_input("geef me link_naam");
+   
+    Input::clear_console();
     std::string link = get_link("Geef me de link", link_naam);
 
     std::string table1 = make_table_lines("Portfolio-item", "Beschrijving", "Bewijslast");
     std::string table2 = make_table_lines("---", "---", "---");
     std::string table3 = make_table_lines(item, beschrijving, link);
 
+    Input::clear_console();
     std::string onderbouwing = "- ";
     onderbouwing += Input::get_input("geef me onderbouwing");
 
+    Input::clear_console();
     std::optional<std::vector<std::vector<std::string>>> questions = Input::get_multiple_input("questions", 3, "geef me de vraag", "geef me het antwoord", "geef me je verwerk");
+    
+    Input::clear_console();
     std::optional<std::vector<std::vector<std::string>>> feedback = Input::get_multiple_input("feedback", 2, "geef me de feedback", "geef me je verwerk");
 
     std::string feedback_question = std::format("{}\n{}", make_feedback_or_questions(feedback).value_or("- Geen feedback"), make_feedback_or_questions(questions).value_or("- Geen vragen"));
