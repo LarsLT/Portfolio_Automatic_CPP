@@ -20,9 +20,11 @@ public:
     void update_path(const Paths &path);
 
     Path(const std::string &path);
+    Path();
 
 private:
     void set_paths(const std::string &path);
+    void set_paths();
     void update_path(const std::string &path, const Paths &p);
 
     bool validate_path(const std::string &path);

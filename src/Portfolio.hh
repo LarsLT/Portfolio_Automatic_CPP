@@ -15,6 +15,7 @@ private:
 
 public:
     Portfolio(const std::string &path_naar_storage) : path(Path(path_naar_storage)) {};
+    Portfolio(const Path path) : path(path) {};
 
     void add_item(const std::string &added_line, std::optional<std::string> find_line);
 

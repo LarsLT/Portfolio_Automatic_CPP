@@ -42,6 +42,35 @@ void Path::set_paths(const std::string &path)
     inputFile.close();
 }
 
+void Path::set_paths()
+{
+    std::ifstream inputFile(storage_path.value());
+
+    if (!inputFile)
+    {
+        std::cerr << "Error opening file!" << std::endl;
+        return;
+    }
+
+    std::string line;
+    std::regex pattern(R"((\w+):\s*([A-Z]:/[^ \n\r]+))");
+    std::smatch match;
+
+    while (std::getline(inputFile, line))
+    {
+        if (std::regex_search(line, match, pattern))
+        {
+            std::string key = match[1].str();
+            std::string value = match[2].str();
+
+            if (key == "Portfolio")
+                portfolio_path = value;\
+        }
+    }
+
+    inputFile.close();
+}
+
 void Path::update_path(const std::string &path, const Paths &p)
 {
     std::regex pattern;
@@ -113,6 +142,7 @@ void Path::update_path(const Paths &path)
 {
     while (true)
     {
+        Input::clear_console();
         switch (path)
         {
         case PORTFOLIO:
@@ -135,11 +165,19 @@ void Path::update_path(const Paths &path)
             break;
         }
 
-        std::cout << "not a good global path :)\n" << "make sure that it goes to a txt or md file and has forward /";
+        std::cout << "not a good global path :)\n"
+                  << "make sure that it goes to a txt or md file and has forward /";
     }
 }
 
 Path::Path(const std::string &path)
 {
     set_paths(path);
+}
+
+Path::Path()
+{
+    update_path(Paths::STORAGE);
+
+    set_paths();
 }
