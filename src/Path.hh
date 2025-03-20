@@ -24,4 +24,6 @@ public:
 private:
     void set_paths(const std::string &path);
     void update_path(const std::string &path, const Paths &p);
+
+    bool validate_path(const std::string &path);
 };

@@ -88,6 +88,12 @@ void Path::update_path(const std::string &path, const Paths &p)
     std::rename("temp.txt", storage_path.value().c_str());
 }
 
+bool Path::validate_path(const std::string &path)
+{
+    const std::regex path_regex(R"(^(?:[a-zA-Z]:\/(?:[^\/:*?"<>|]+\/)*[^\/:*?"<>|]+\.(md|txt))$)");
+    return std::regex_match(path, path_regex);
+}
+
 std::optional<std::string> Path::get_path(const Paths &path)
 {
     switch (path)
@@ -105,16 +111,31 @@ std::optional<std::string> Path::get_path(const Paths &path)
 
 void Path::update_path(const Paths &path)
 {
-    switch (path)
+    while (true)
     {
-    case PORTFOLIO:
-        portfolio_path = Input::get_input("geef het path naar je portfolio.");
-        update_path(portfolio_path.value(), path);
-        break;
-    case STORAGE:
-        storage_path = Input::get_input("geef het path naar je stroage file.");
-        update_path(storage_path.value(), path);
-        break;
+        switch (path)
+        {
+        case PORTFOLIO:
+            portfolio_path = Input::get_input("geef het path naar je portfolio.");
+            if (validate_path(portfolio_path.value()))
+            {
+                update_path(portfolio_path.value(), path);
+                return;
+            }
+
+            break;
+        case STORAGE:
+            storage_path = Input::get_input("geef het path naar je stroage file.");
+            if (validate_path(storage_path.value()))
+            {
+                update_path(storage_path.value(), path);
+                return;
+            }
+
+            break;
+        }
+
+        std::cout << "not a good global path :)\n" << "make sure that it goes to a txt or md file and has forward /";
     }
 }
 
