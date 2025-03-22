@@ -34,8 +34,10 @@ void Path::set_paths(const std::string &path)
 
             if (key == "Portfolio")
                 portfolio_path = value;
-            else if (key == "storage")
+            else if (key == "Storage")
                 storage_path = value;
+            else if (key == "Gemaakt")
+                gemaakt_path = value;
         }
     }
 
@@ -88,6 +90,11 @@ void Path::update_path(const std::string &path, const Paths &p)
         new_line = std::format("Storage: {}", path);
         storage_path = path;
         break;
+    case GEMAAKT:
+        pattern = std::regex(R"(Gemaakt:\s*[A-Z]:/[^ \n\r]+)");
+        new_line = std::format("Gemaakt: {}", path);
+        gemaakt_path = path;
+        break;
     }
 
     std::ifstream inputFile(storage_path.value());
@@ -132,6 +139,9 @@ std::optional<std::string> Path::get_path(const Paths &path)
         break;
     case STORAGE:
         return storage_path;
+        break;
+    case GEMAAKT:
+        return gemaakt_path;
         break;
     }
 

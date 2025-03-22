@@ -13,6 +13,7 @@ public:
     {
         PORTFOLIO,
         STORAGE,
+        GEMAAKT
     };
 
     std::optional<std::string> get_path(const Paths &path);
