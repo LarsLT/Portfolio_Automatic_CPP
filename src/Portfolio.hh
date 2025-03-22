@@ -34,6 +34,9 @@ private:
     void get_item(const std::string &table);
 
     void store_item();
+
+    template <typename Functor>
+    void modify_file(Path::Paths file_path, Functor func);
 };
 
 /*

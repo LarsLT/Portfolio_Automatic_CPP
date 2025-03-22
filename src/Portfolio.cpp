@@ -10,41 +10,30 @@
 #include <regex>
 #include <format>
 
+#include <mutex>
+
 #include "Path.hh"
 
 #include "Input.hh"
 
-void Portfolio::add_item(const std::string &added_line, std::optional<std::string> find_line = std::nullopt) // TODO less duplicate code
+void Portfolio::add_item(const std::string &added_line, std::optional<std::string> find_line = std::nullopt)
 {
     get_item(added_line);
     get_leeruitkomst();
     get_type();
     store_item();
 
-    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
-    std::ofstream outputFile("temp.txt");
-
-    if (!inputFile || !outputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
-    std::string line;
-    while (std::getline(inputFile, line))
+    auto func = [&, this](const std::string &line) -> std::optional<std::string>
     {
         if (line.find(find_line.value_or(zelf_groep_string.value())) != std::string::npos)
         {
-            line += added_line;
-        }
-        outputFile << line << "\n";
-    }
+            return line + added_line;
+        };
 
-    inputFile.close();
-    outputFile.close();
+        return std::nullopt;
+    };
 
-    std::remove(path.get_path(path.PORTFOLIO).value().c_str());
-    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
+    modify_file(path.PORTFOLIO, func);
 }
 
 void Portfolio::update_algemeen()
@@ -70,68 +59,41 @@ void Portfolio::update_algemeen()
     override_next_item(std::format("- {}", leren), "*Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*");
 }
 
-void Portfolio::override_item(const std::string &new_line, const std::regex &pattern) // TODO less duplicate code
+void Portfolio::override_item(const std::string &new_line, const std::regex &pattern)
 {
-    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
-    std::ofstream outputFile("temp.txt");
-
-    if (!inputFile || !outputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
-    std::string line;
-
-    while (std::getline(inputFile, line))
+    auto func = [&](const std::string &line) -> std::optional<std::string>
     {
         if (std::regex_search(line, pattern))
         {
-            line = new_line;
-        }
-        outputFile << line << "\n";
-    }
+            return new_line;
+        };
+        return std::nullopt;
+    };
 
-    inputFile.close();
-    outputFile.close();
-
-    std::remove(path.get_path(path.PORTFOLIO).value().c_str());
-    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
+    modify_file(path.PORTFOLIO, func);
 }
 
-void Portfolio::override_next_item(const std::string &new_line, std::string find_line) // TODO less duplicate code
+void Portfolio::override_next_item(const std::string &new_line, std::string find_line)
 {
-    std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
-    std::ofstream outputFile("temp.txt");
-
-    if (!inputFile || !outputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
     bool item_found = false;
 
-    std::string line;
-    while (std::getline(inputFile, line))
+    auto func = [&](const std::string &line) -> std::optional<std::string>
     {
+        std::optional<std::string> result;
+
         if (line.find(find_line) != std::string::npos)
         {
             item_found = true;
         }
         else if (item_found)
         {
-            line = new_line;
+            result = new_line;
             item_found = false;
         }
-        outputFile << line << "\n";
-    }
+        return result;
+    };
 
-    inputFile.close();
-    outputFile.close();
-
-    std::remove(path.get_path(path.PORTFOLIO).value().c_str());
-    std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
+    modify_file(path.PORTFOLIO, func);   
 }
 
 void Portfolio::get_leeruitkomst()
@@ -232,21 +194,41 @@ void Portfolio::get_item(const std::string &table)
     }
 }
 
-void Portfolio::store_item() // TODO less duplicate code
+void Portfolio::store_item()
 {
-    std::ifstream inputFile(path.get_path(path.GEMAAKT).value());
-    std::ofstream outputFile("temp.txt");
 
-    static const std::unordered_map<int, std::string> lookupTable = {
-        {1, "ANALYSEREN"},
-        {2, "ONTWERPEN"},
-        {3, "ADVISEREN"},
-        {4, "REALISEREN"},
-        {5, "BEHEREN"},
-        {6, "TOEKOMSTGERICHT-ORGANISEREN"},
-        {7, "DOELGERICHT-INTERACTEREN"},
-        {8, "PERSOONLIJK-LEIDERSCHAP"},
-        {9, "ONDERZOEK-PROBLEEM-OPLOSSEN"}};
+    std::cout << "here" << std::endl;
+    std::once_flag flag;
+
+    auto func = [&flag, this](const std::string &line) -> std::optional<std::string>
+    {
+        static const std::unordered_map<int, std::string> lookupTable = {
+            {1, "ANALYSEREN"},
+            {2, "ONTWERPEN"},
+            {3, "ADVISEREN"},
+            {4, "REALISEREN"},
+            {5, "BEHEREN"},
+            {6, "TOEKOMSTGERICHT-ORGANISEREN"},
+            {7, "DOELGERICHT-INTERACTEREN"},
+            {8, "PERSOONLIJK-LEIDERSCHAP"},
+            {9, "ONDERZOEK-PROBLEEM-OPLOSSEN"}};
+
+        std::optional<std::string> result;
+
+        std::call_once(flag, [&]()
+                       { result = line + std::format("\n{} {}\n", item.value(), lookupTable.at(LU_number.value())); });
+
+        return result;
+    };
+
+    modify_file(path.GEMAAKT, func);
+}
+
+template <typename Functor>
+void Portfolio::modify_file(Path::Paths file_path, Functor func)
+{
+    std::ifstream inputFile(path.get_path(file_path).value());
+    std::ofstream outputFile("temp.txt");
 
     if (!inputFile || !outputFile)
     {
@@ -259,20 +241,15 @@ void Portfolio::store_item() // TODO less duplicate code
     std::string line;
     while (std::getline(inputFile, line))
     {
-        if (!wrote_item)
-        {
-            line += std::format("\n{} {}\n", item.value(), lookupTable.find(LU_number.value())->second);
-            std::cout << line << "\n";
-            wrote_item = true;
-        }
+        line = func(line).value_or(line);
         outputFile << line << "\n";
     }
 
     inputFile.close();
     outputFile.close();
 
-    std::remove(path.get_path(path.GEMAAKT).value().c_str());
-    std::rename("temp.txt", path.get_path(path.GEMAAKT).value().c_str());
+    std::remove(path.get_path(file_path).value().c_str());
+    std::rename("temp.txt", path.get_path(file_path).value().c_str());
 }
 
 /*
