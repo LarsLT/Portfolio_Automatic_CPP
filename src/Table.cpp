@@ -93,5 +93,7 @@ std::string Table::make_everything()
 
     std::string table = make_table("\n", table1, table2, table3, "\n", onderbouwing_text, onderbouwing, "\n", feedback_question_text, feedback_question, "\n---");
 
+    Input::clear_console();
+
     return table;
 }
