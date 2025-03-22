@@ -10,6 +10,7 @@ class Portfolio
 private:
     std::optional<int> LU_number = std::nullopt;
     std::optional<std::string> zelf_groep_string = std::nullopt; // kan niet 6 persoonlijk zijn
+    std::optional<std::string> item = std::nullopt;
 
     Path path;
 
@@ -30,7 +31,9 @@ private:
 
     void get_type();
 
-    void store_item(const std::string &item, const std::string &link);
+    void get_item(const std::string &table);
+
+    void store_item();
 };
 
 /*

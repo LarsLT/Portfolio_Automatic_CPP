@@ -14,11 +14,12 @@
 
 #include "Input.hh"
 
-void Portfolio::add_item(const std::string &added_line, std::optional<std::string> find_line = std::nullopt)
+void Portfolio::add_item(const std::string &added_line, std::optional<std::string> find_line = std::nullopt) // TODO less duplicate code
 {
-
+    get_item(added_line);
     get_leeruitkomst();
     get_type();
+    store_item();
 
     std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
@@ -69,7 +70,7 @@ void Portfolio::update_algemeen()
     override_next_item(std::format("- {}", leren), "*Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*");
 }
 
-void Portfolio::override_item(const std::string &new_line, const std::regex &pattern)
+void Portfolio::override_item(const std::string &new_line, const std::regex &pattern) // TODO less duplicate code
 {
     std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
@@ -98,7 +99,7 @@ void Portfolio::override_item(const std::string &new_line, const std::regex &pat
     std::rename("temp.txt", path.get_path(path.PORTFOLIO).value().c_str());
 }
 
-void Portfolio::override_next_item(const std::string &new_line, std::string find_line)
+void Portfolio::override_next_item(const std::string &new_line, std::string find_line) // TODO less duplicate code
 {
     std::ifstream inputFile(path.get_path(path.PORTFOLIO).value());
     std::ofstream outputFile("temp.txt");
@@ -212,6 +213,66 @@ void Portfolio::get_type()
             return;
         }
     }
+}
+
+void Portfolio::get_item(const std::string &table)
+{
+    auto lines = table | std::views::split('\n');
+
+    const std::regex link_regex(R"(\| ([A-Za-z0-9]+) \| [A-Za-z]+ \| \[[^\]]*\]\([^)]*\) \|)");
+    std::smatch match;
+
+    for (const auto &line : lines)
+    {
+        std::string line_str(line.begin(), line.end());
+        if (std::regex_match(line_str, match, link_regex) && match.size() > 1)
+        {
+            item = match[1].str();
+        }
+    }
+}
+
+void Portfolio::store_item() // TODO less duplicate code
+{
+    std::ifstream inputFile(path.get_path(path.GEMAAKT).value());
+    std::ofstream outputFile("temp.txt");
+
+    static const std::unordered_map<int, std::string> lookupTable = {
+        {1, "ANALYSEREN"},
+        {2, "ONTWERPEN"},
+        {3, "ADVISEREN"},
+        {4, "REALISEREN"},
+        {5, "BEHEREN"},
+        {6, "TOEKOMSTGERICHT-ORGANISEREN"},
+        {7, "DOELGERICHT-INTERACTEREN"},
+        {8, "PERSOONLIJK-LEIDERSCHAP"},
+        {9, "ONDERZOEK-PROBLEEM-OPLOSSEN"}};
+
+    if (!inputFile || !outputFile)
+    {
+        std::cerr << "Error opening file!" << std::endl;
+        return;
+    }
+
+    bool wrote_item = false;
+
+    std::string line;
+    while (std::getline(inputFile, line))
+    {
+        if (!wrote_item)
+        {
+            line += std::format("\n{} {}\n", item.value(), lookupTable.find(LU_number.value())->second);
+            std::cout << line << "\n";
+            wrote_item = true;
+        }
+        outputFile << line << "\n";
+    }
+
+    inputFile.close();
+    outputFile.close();
+
+    std::remove(path.get_path(path.GEMAAKT).value().c_str());
+    std::rename("temp.txt", path.get_path(path.GEMAAKT).value().c_str());
 }
 
 /*
