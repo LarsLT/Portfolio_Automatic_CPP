@@ -66,7 +66,7 @@ void Path::set_paths()
             std::string value = match[2].str();
 
             if (key == "Portfolio")
-                portfolio_path = value;\
+                portfolio_path = value;
         }
     }
 
@@ -130,6 +130,21 @@ bool Path::validate_path(const std::string &path)
     return std::regex_match(path, path_regex);
 }
 
+template <backslash_path T>
+inline bool Path::validate_path(T &path)
+{
+    std::string pathStr(path);
+
+    auto result = pathStr | std::views::transform([](char c)
+                                                  { return c == '\\' ? '/' : c; }) |
+                  std::views::common;
+
+    path = {result.begin(), result.end()};
+
+    const std::regex path_regex(R"(^(?:[a-zA-Z]:\/(?:[^\/:*?"<>|]+\/)*[^\/:*?"<>|]+\.(md|txt))$)");
+    return std::regex_match(path, path_regex);
+}
+
 std::optional<std::string> Path::get_path(const Paths &path)
 {
     switch (path)
@@ -152,23 +167,26 @@ void Path::update_path(const Paths &path)
 {
     while (true)
     {
+
+        std::string path_string = "";
         Input::clear_console();
+
         switch (path)
         {
         case PORTFOLIO:
-            portfolio_path = Input::get_input("geef het path naar je portfolio.");
-            if (validate_path(portfolio_path.value()))
+            path_string = Input::get_input("geef het path naar je portfolio.");
+            if (validate_path(path_string))
             {
-                update_path(portfolio_path.value(), path);
+                update_path(path_string, path);
                 return;
             }
 
             break;
         case STORAGE:
-            storage_path = Input::get_input("geef het path naar je stroage file.");
-            if (validate_path(storage_path.value()))
+            path_string = Input::get_input("geef het path naar je storage file.");
+            if (validate_path(path_string))
             {
-                update_path(storage_path.value(), path);
+                update_path(path_string, path);
                 return;
             }
 
