@@ -13,8 +13,8 @@
 #include <mutex>
 
 #include "Path.hh"
-
 #include "Input.hh"
+#include "File.hh"
 
 void Portfolio::add_item(const std::string &added_line, std::optional<std::string> find_line = std::nullopt)
 {
@@ -33,7 +33,7 @@ void Portfolio::add_item(const std::string &added_line, std::optional<std::strin
         return std::nullopt;
     };
 
-    modify_file(path.PORTFOLIO, func);
+    File::write_file(path.get_path(path.PORTFOLIO).value(), func);
 }
 
 void Portfolio::update_algemeen()
@@ -70,7 +70,7 @@ void Portfolio::override_item(const std::string &new_line, const std::regex &pat
         return std::nullopt;
     };
 
-    modify_file(path.PORTFOLIO, func);
+    File::write_file(path.get_path(path.PORTFOLIO).value(), func);
 }
 
 void Portfolio::override_next_item(const std::string &new_line, std::string find_line)
@@ -93,7 +93,7 @@ void Portfolio::override_next_item(const std::string &new_line, std::string find
         return result;
     };
 
-    modify_file(path.PORTFOLIO, func);   
+    File::write_file(path.get_path(path.PORTFOLIO).value(), func);
 }
 
 void Portfolio::get_leeruitkomst()
@@ -202,54 +202,15 @@ void Portfolio::store_item()
 
     auto func = [&flag, this](const std::string &line) -> std::optional<std::string>
     {
-        static const std::unordered_map<int, std::string> lookupTable = {
-            {1, "ANALYSEREN"},
-            {2, "ONTWERPEN"},
-            {3, "ADVISEREN"},
-            {4, "REALISEREN"},
-            {5, "BEHEREN"},
-            {6, "TOEKOMSTGERICHT-ORGANISEREN"},
-            {7, "DOELGERICHT-INTERACTEREN"},
-            {8, "PERSOONLIJK-LEIDERSCHAP"},
-            {9, "ONDERZOEK-PROBLEEM-OPLOSSEN"}};
-
         std::optional<std::string> result;
 
         std::call_once(flag, [&]()
-                       { result = line + std::format("\n{} {}\n", item.value(), lookupTable.at(LU_number.value())); });
+                       { result = line + std::format("\n{}: {}\n", item.value(), zelf_groep_string.value()); });
 
         return result;
     };
 
-    modify_file(path.GEMAAKT, func);
-}
-
-template <typename Functor>
-void Portfolio::modify_file(Path::Paths file_path, Functor func)
-{
-    std::ifstream inputFile(path.get_path(file_path).value());
-    std::ofstream outputFile("temp.txt");
-
-    if (!inputFile || !outputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
-    bool wrote_item = false;
-
-    std::string line;
-    while (std::getline(inputFile, line))
-    {
-        line = func(line).value_or(line);
-        outputFile << line << "\n";
-    }
-
-    inputFile.close();
-    outputFile.close();
-
-    std::remove(path.get_path(file_path).value().c_str());
-    std::rename("temp.txt", path.get_path(file_path).value().c_str());
+    File::write_file(path.get_path(path.GEMAAKT).value(), func);
 }
 
 /*

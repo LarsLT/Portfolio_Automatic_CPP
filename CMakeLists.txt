@@ -14,6 +14,7 @@ add_compile_options(-std=c++23)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(Portfolio src/main.cpp 
+                         src/File.hh
                          src/Input.cpp 
                          src/Path.cpp 
                          src/Portfolio.cpp 

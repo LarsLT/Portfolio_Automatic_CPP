@@ -10,55 +10,18 @@
 #include <string>
 #include <regex>
 #include <format>
+#include <map>
 
-void Path::set_paths(const std::string &path)
-{
-    std::ifstream inputFile(path);
-
-    if (!inputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
-    std::string line;
-    std::regex pattern(R"((\w+):\s*([A-Z]:/[^ \n\r]+))");
-    std::smatch match;
-
-    while (std::getline(inputFile, line))
-    {
-        if (std::regex_search(line, match, pattern))
-        {
-            std::string key = match[1].str();
-            std::string value = match[2].str();
-
-            if (key == "Portfolio")
-                portfolio_path = value;
-            else if (key == "Storage")
-                storage_path = value;
-            else if (key == "Gemaakt")
-                gemaakt_path = value;
-        }
-    }
-
-    inputFile.close();
-}
+#include "File.hh"
 
 void Path::set_paths()
 {
-    std::ifstream inputFile(storage_path.value());
+    std::map<std::string, std::string> path_map;
 
-    if (!inputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
-    std::string line;
     std::regex pattern(R"((\w+):\s*([A-Z]:/[^ \n\r]+))");
     std::smatch match;
 
-    while (std::getline(inputFile, line))
+    auto func = [&match, &pattern, this](const std::string &line)
     {
         if (std::regex_search(line, match, pattern))
         {
@@ -67,10 +30,14 @@ void Path::set_paths()
 
             if (key == "Portfolio")
                 portfolio_path = value;
+            if (key == "Gemaakt")
+                gemaakt_path = value;
         }
-    }
 
-    inputFile.close();
+        return std::nullopt;
+    };
+
+    File::read_file(storage_path.value(), func);
 }
 
 void Path::update_path(const std::string &path, const Paths &p)
@@ -97,31 +64,17 @@ void Path::update_path(const std::string &path, const Paths &p)
         break;
     }
 
-    std::ifstream inputFile(storage_path.value());
-    std::ofstream outputFile("temp.txt");
-
-    if (!inputFile || !outputFile)
-    {
-        std::cerr << "Error opening file!" << std::endl;
-        return;
-    }
-
-    std::string line;
-
-    while (std::getline(inputFile, line))
+    auto func = [&](const std::string &line) -> std::optional<std::string>
     {
         if (std::regex_search(line, pattern))
         {
-            line = new_line;
+            return new_line;
         }
-        outputFile << line << "\n";
-    }
 
-    inputFile.close();
-    outputFile.close();
+        return std::nullopt;
+    };
 
-    std::remove(storage_path.value().c_str());
-    std::rename("temp.txt", storage_path.value().c_str());
+    File::write_file(storage_path.value(), func);
 }
 
 bool Path::validate_path(const std::string &path)
@@ -200,7 +153,9 @@ void Path::update_path(const Paths &path)
 
 Path::Path(const std::string &path)
 {
-    set_paths(path);
+    storage_path = path;
+
+    set_paths();
 }
 
 Path::Path()
