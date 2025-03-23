@@ -11,6 +11,24 @@
 
 #include "Input.hh"
 
+template <typename... Args> // waarom moet dit inline zijn
+    requires(std::convertible_to<Args, std::string> && ...)
+inline std::string Table::make_table(Args... args)
+{
+    std::string table = "";
+    ((table += std::string(args) + "\n"), ...);
+    return table;
+}
+
+template <typename... Args> // waarom moet dit inline zijn
+    requires(std::convertible_to<Args, std::string> && ...)
+inline std::string Table::make_table_lines(Args... args)
+{
+    std::string table = "|";
+    ((table += " " + std::string(args) + " |"), ...);
+    return table;
+}
+
 std::optional<std::string> Table::make_feedback_or_questions(const std::optional<std::vector<std::vector<std::string>>> &opt_items)
 {
 
@@ -62,13 +80,13 @@ std::string Table::make_everything()
 {
     Input::clear_console();
     std::string item = Input::get_input("geef me item");
-   
+
     Input::clear_console();
     std::string beschrijving = Input::get_input("geef me beschrijving");
-   
+
     Input::clear_console();
     std::string link_naam = Input::get_input("geef me link_naam");
-   
+
     Input::clear_console();
     std::string link = get_link("Geef me de link", link_naam);
 
@@ -82,7 +100,7 @@ std::string Table::make_everything()
 
     Input::clear_console();
     std::optional<std::vector<std::vector<std::string>>> questions = Input::get_multiple_input("questions", 3, "geef me de vraag", "geef me het antwoord", "geef me je verwerk");
-    
+
     Input::clear_console();
     std::optional<std::vector<std::vector<std::string>>> feedback = Input::get_multiple_input("feedback", 2, "geef me de feedback", "geef me je verwerk");
 
