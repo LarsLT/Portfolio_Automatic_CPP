@@ -1,0 +1,12 @@
+Item: Plek
+Gazebo opdrachten: **Leeruitkomst 4 Persoonlijke opdrachten:**
+STL opdrachten: **Leeruitkomst 4 Persoonlijke opdrachten:**
+Gazebo wereld: **Leeruitkomst 4 Persoonlijke opdrachten:**
+Controller Plugin: **Leeruitkomst 4 Persoonlijke opdrachten:**
+Docker: **Leeruitkomst 5 Persoonlijke opdrachten:**
+DevContainer: **Leeruitkomst 5 Persoonlijke opdrachten:**
+Scrum Board: **Leeruitkomst 6 Groepsopdrachten:**
+Sprint verslagen: **Leeruitkomst 6 Groepsopdrachten:**
+Sprint verslagen: **Leeruitkomst 7 Groepsopdrachten:**
+Sollicitatie brief en CV: **Leeruitkomst 8 Persoonlijke opdrachten:**
+Team Contract: **Leeruitkomst 8 Groepsopdrachten:**
