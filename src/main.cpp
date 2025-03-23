@@ -1,7 +1,7 @@
+#include "Input.hh"
 #include "Path.hh"
 #include "Table.hh"
 #include "Portfolio.hh"
-#include "Input.hh"
 #include <iostream>
 #include <string>
 #include <format>
