@@ -41,7 +41,19 @@ int main()
 
         std::string wat = Input::get_input("");
 
-        switch (std::stoi(wat))
+        int num;
+
+        try
+        {
+            num = std::stoi(wat);
+        }
+        catch (const std::exception &e)
+        {
+            std::cout << "Couldnt conver " << wat << " to number\n\n";
+            continue;
+        }
+
+        switch (num)
         {
         case 1:
         {
