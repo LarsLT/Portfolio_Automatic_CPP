@@ -123,7 +123,7 @@ void Portfolio::get_leeruitkomst()
             {"PROBLEEM", 9},
             {"OPLOSSEN", 9}};
 
-        if (std::isalpha(leeruitkomst[0])) // TODO i dont like 2 if in 1
+        if (std::isalpha(leeruitkomst[0]))
         {
             std::ranges::transform(leeruitkomst, leeruitkomst.begin(), [](unsigned char c)
                                    { return std::toupper(c); });
@@ -134,7 +134,7 @@ void Portfolio::get_leeruitkomst()
                 return;
             }
         }
-        else // TODO else try if i dont like it
+        else
         {
             try
             {
@@ -179,19 +179,18 @@ void Portfolio::get_type()
 
 void Portfolio::get_item(const std::string &table)
 {
-    auto lines = table | std::views::split('\n');
-
     const std::regex link_regex(R"(\| ([A-Za-z0-9]+) \| [A-Za-z]+ \| \[[^\]]*\]\([^)]*\) \|)");
     std::smatch match;
 
-    for (const auto &line : lines)
-    {
-        std::string line_str(line.begin(), line.end());
-        if (std::regex_match(line_str, match, link_regex) && match.size() > 1)
-        {
-            item = match[1].str();
-        }
-    }
+    auto items = table | std::views::split('\n') |
+                 std::views::transform([](auto &&line)
+                                       { return std::string(line.begin(), line.end()); }) |
+                 std::views::filter([&](const std::string &line_str)
+                                    { return std::regex_match(line_str, match, link_regex) && match.size() > 1; }) |
+                 std::views::transform([&](const std::string &)
+                                       { return match[1].str(); });
+
+    item = items.front();
 }
 
 void Portfolio::store_item()
