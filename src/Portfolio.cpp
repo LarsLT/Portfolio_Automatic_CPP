@@ -196,8 +196,6 @@ void Portfolio::get_item(const std::string &table)
 
 void Portfolio::store_item()
 {
-
-    std::cout << "here" << std::endl;
     std::once_flag flag;
 
     auto func = [&flag, this](const std::string &line) -> std::optional<std::string>
@@ -205,7 +203,7 @@ void Portfolio::store_item()
         std::optional<std::string> result;
 
         std::call_once(flag, [&]()
-                       { result = line + std::format("\n{}: {}\n", item.value(), zelf_groep_string.value()); });
+                       { result = line + std::format("\n{}: {}", item.value(), zelf_groep_string.value()); });
 
         return result;
     };
