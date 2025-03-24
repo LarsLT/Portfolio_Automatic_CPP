@@ -61,7 +61,7 @@ bool Table::is_valid_link(const std::string &link)
     return std::regex_match(link, link_regex);
 }
 
-std::string Table::get_link(const std::string &what_to_get, const std::string &link_naam)
+std::string Table::get_link(const std::string &what_to_get)
 {
     while (true)
     {
@@ -69,11 +69,26 @@ std::string Table::get_link(const std::string &what_to_get, const std::string &l
 
         if (is_valid_link(link))
         {
-            return std::format("[{}]({})", link_naam, link);
+            return link;
         }
 
         std::cout << "Not a Valid Link" << std::endl;
     }
+}
+
+template <Github github>
+std::string Table::make_link(github &link)
+{
+    return std::format("[Github]({})", link);
+}
+
+std::string Table::make_link(const std::string &link)
+{
+    Input::clear_console();
+
+    std::string link_naam = Input::get_input("Geef me de linknaam");
+
+    return std::format("[{}]({})", link_naam, link);
 }
 
 std::string Table::make_everything()
@@ -85,14 +100,13 @@ std::string Table::make_everything()
     std::string beschrijving = Input::get_input("geef me beschrijving");
 
     Input::clear_console();
-    std::string link_naam = Input::get_input("geef me link_naam");
+    std::string link = get_link("Geef me de link");
 
-    Input::clear_console();
-    std::string link = get_link("Geef me de link", link_naam);
+    std::string md_link = make_link(link);
 
     std::string table1 = make_table_lines("Portfolio-item", "Beschrijving", "Bewijslast");
     std::string table2 = make_table_lines("---", "---", "---");
-    std::string table3 = make_table_lines(item, beschrijving, link);
+    std::string table3 = make_table_lines(item, beschrijving, md_link);
 
     Input::clear_console();
     std::string onderbouwing = "- ";
