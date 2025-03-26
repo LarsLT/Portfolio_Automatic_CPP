@@ -16,6 +16,15 @@ std::string Input::get_input(const std::string &what_to_get)
     return input;
 }
 
+std::string Input::get_input()
+{
+    std::string input;
+
+    std::getline(std::cin, input);
+
+    return input;
+}
+
 bool Input::get_yes_no(const std::string &what_to_get)
 {
     std::cout << what_to_get;

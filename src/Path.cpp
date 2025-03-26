@@ -120,30 +120,16 @@ void Path::update_path(const Paths &path)
 {
     while (true)
     {
-
         std::string path_string = "";
         Input::clear_console();
 
-        switch (path)
+        std::cout << "geef het path naar je " << path << std::endlfile;
+
+        path_string = Input::get_input();
+        if (validate_path(path_string))
         {
-        case PORTFOLIO:
-            path_string = Input::get_input("geef het path naar je portfolio.");
-            if (validate_path(path_string))
-            {
-                update_path(path_string, path);
-                return;
-            }
-
-            break;
-        case STORAGE:
-            path_string = Input::get_input("geef het path naar je storage file.");
-            if (validate_path(path_string))
-            {
-                update_path(path_string, path);
-                return;
-            }
-
-            break;
+            update_path(path_string, path);
+            return;
         }
 
         std::cout << "not a good global path :)\n"
@@ -163,4 +149,25 @@ Path::Path()
     update_path(Paths::STORAGE);
 
     set_paths();
+}
+
+std::ostream &operator<<(std::ostream &os, const Path::Paths &path)
+{
+    switch (path)
+    {
+    case Path::PORTFOLIO:
+        os << "Portfolio file";
+        break;
+    case Path::STORAGE:
+        os << "Storage file";
+        break;
+    case Path::GEMAAKT:
+        os << "Gemaakt file";
+        break;
+
+    default:
+        break;
+    }
+
+    return os;
 }

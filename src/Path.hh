@@ -35,7 +35,6 @@ public:
     Path();
 
 private:
-    void set_paths(const std::string &path);
     void set_paths();
     void update_path(const std::string &path, const Paths &p);
 
@@ -43,4 +42,6 @@ private:
     bool validate_path(T &path);
 
     bool validate_path(const std::string &path);
+
+    friend std::ostream &operator<<(std::ostream &os, const Paths &path);
 };
