@@ -123,7 +123,7 @@ void Path::update_path(const Paths &path)
         std::string path_string = "";
         Input::clear_console();
 
-        std::cout << "geef het path naar je " << path << std::endlfile;
+        std::cout << "geef het path naar je " << path << std::endl;
 
         path_string = Input::get_input();
         if (validate_path(path_string))
