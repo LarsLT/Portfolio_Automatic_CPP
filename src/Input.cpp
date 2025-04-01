@@ -6,58 +6,61 @@
 #include <format>
 #include <stdlib.h>
 
-std::string Input::get_input(const std::string &what_to_get)
+namespace Input
 {
-    std::string input;
+    std::string get_input(const std::string &what_to_get)
+    {
+        std::string input;
 
-    std::cout << what_to_get << std::endl;
-    std::getline(std::cin, input);
+        std::cout << what_to_get << std::endl;
+        std::getline(std::cin, input);
 
-    return input;
-}
+        return input;
+    }
 
-std::string Input::get_input()
-{
-    std::string input;
-
-    std::getline(std::cin, input);
-
-    return input;
-}
-
-bool Input::get_yes_no(const std::string &what_to_get)
-{
-    std::cout << what_to_get;
-
-    while (true)
+    std::string get_input()
     {
         std::string input;
 
         std::getline(std::cin, input);
 
-        if (std::toupper(input[0]) == 'J')
-        {
-            return true;
-        }
-        else if (std::toupper(input[0]) == 'N')
-        {
-            return false;
-        }
-        else
-        {
-            std::cout << "alleen Ja Of Nee\n";
-        }
+        return input;
     }
-}
 
-void Input::clear_console()
-{
-#if defined(_DEBUG)
-    if (!isDebuggerAttached())
+    bool get_yes_no(const std::string &what_to_get)
     {
-        system("cls");
+        std::cout << what_to_get;
+
+        while (true)
+        {
+            std::string input;
+
+            std::getline(std::cin, input);
+
+            if (std::toupper(input[0]) == 'J')
+            {
+                return true;
+            }
+            else if (std::toupper(input[0]) == 'N')
+            {
+                return false;
+            }
+            else
+            {
+                std::cout << "alleen Ja Of Nee\n";
+            }
+        }
     }
+
+    void clear_console()
+    {
+#if defined(_DEBUG)
+        if (!isDebuggerAttached())
+        {
+            system("cls");
+        }
 #else
-    system("cls");
+        system("cls");
 #endif
-}
+    }
+} // namespace Input
