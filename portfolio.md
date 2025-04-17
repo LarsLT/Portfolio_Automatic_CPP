@@ -30,10 +30,10 @@
 
 | Onderwerp       | Graag invullen |
 | --------------- | -------------- |
-| *Peilmoment*    | `peilmoment 1` |
+| *Peilmoment*    | `peilmoment 2`   |
 | *Naam student*  | `Lars Tokkie`  |
 | *Studentnummer* | `1849354`      |
-| *Datum*         | `20-03-2025`   |
+| *Datum*         | `17-4-2025` |
 
 
 Beste student, 
@@ -64,13 +64,13 @@ Succes met de uitwerking van de verantwoording!
 ## Algemeen
 
 *Waar ik het meest trots op ben:*
-- Ik ben het meest trots op de code vooruitgangen die ik nu al heb gemaakt, dit jaar ben ik voor het eerst bezig geweest met regex, algorithms/ranges/views/iterator & Variadic templatess in C++, na wel al een beetje ervaring met Rust, en denk dat ik dit goed begin te begrijpen (copium :) )
+- Ik ben het meest trots op de vooruitgangen die ik heb gemaakt met scrum werken, ik update vaker mijn planboard dan ooit en zorg erook voor dat de opdrachten die we als team goed gestructureerd lopen
 
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
-- De afgelopen periode vond ik het moeilijk om een goede tech lead te zijn van mijn team en ga er daarom voor zorgen dat ik dit de volgende sprint/periode dit beter ga doen, om hiervoor te zorgen ga ik, zodra ik beter ben, naar Jan of Nick om ze vragen te stellen hoe ik hier beter in kan worden.
+- Afgelopen periode heb ik moeite gehad met optijd naar de docent stappen als ik vragen heb over de opdracht
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
-- Ik wil doorgaan met veel beter worden in C++ door Concepts/sfinea/CRTP/etc te begin te begrijpen;
+- Ik ga voortaan sneller naar de opdracht gever en heb mijn teamgenoten om hulp gevraagd me hier mee te helpen
 
 ---
 
