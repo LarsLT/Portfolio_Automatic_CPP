@@ -1,4 +1,25 @@
 Item: Plek
+// er gaat iets miss denk ik
+: **Leeruitkomst 1 Groepsopdrachten:**
+: **Leeruitkomst 5 Persoonlijke opdrachten:**
+: **Leeruitkomst 4 Groepsopdrachten:**
+: **Leeruitkomst 7 Groepsopdrachten:**
+: **Leeruitkomst 2 Groepsopdrachten:**
+: **Leeruitkomst 1 Groepsopdrachten:**
+: **Leeruitkomst 1 Groepsopdrachten:**
+: **Leeruitkomst 1 Groepsopdrachten:**
+: **Leeruitkomst 1 Groepsopdrachten:**
+: **Leeruitkomst 2 Groepsopdrachten:**
+: **Leeruitkomst 4 Persoonlijke opdrachten:**
+: **Leeruitkomst 9 Persoonlijke opdrachten:**
+: **Leeruitkomst 4 Persoonlijke opdrachten:**
+: **Leeruitkomst 4 Persoonlijke opdrachten:**
+: **Leeruitkomst 2 Persoonlijke opdrachten:**
+: **Leeruitkomst 1 Persoonlijke opdrachten:**
+: **Leeruitkomst 1 Persoonlijke opdrachten:**
+: **Leeruitkomst 2 Persoonlijke opdrachten:**
+: **Leeruitkomst 1 Persoonlijke opdrachten:**
+: **Leeruitkomst 1 Persoonlijke opdrachten:**
 Gazebo opdrachten: **Leeruitkomst 4 Persoonlijke opdrachten:**
 STL opdrachten: **Leeruitkomst 4 Persoonlijke opdrachten:**
 Gazebo wereld: **Leeruitkomst 4 Persoonlijke opdrachten:**

@@ -14,6 +14,7 @@
   - [Leeruitkomst 3 Adviseren](#leeruitkomst-3-adviseren)
   - [Leeruitkomst 4 Realiseren](#leeruitkomst-4-realiseren)
   - [Leeruitkomst 5 Beheren](#leeruitkomst-5-beheren)
+- [Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.](#onderbouwing-hoe-deze-portfolio-items-hebben-bijgedragen-aan-het-aantonen-van-deze-leeruitkomst)
   - [Leeruitkomst 6 Toekomstgericht organiseren](#leeruitkomst-6-toekomstgericht-organiseren)
   - [Leeruitkomst 7 Doelgericht interacteren](#leeruitkomst-7-doelgericht-interacteren)
   - [Leeruitkomst 8 Persoonlijk leiderschap](#leeruitkomst-8-persoonlijk-leiderschap)
@@ -88,7 +89,164 @@ Indicatoren
 
 **Leeruitkomst 1 Persoonlijke opdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Usecases | Ik heb voor het project de Usecases opgezet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/Usecases/Usecases.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de usecases te maken heb ik laten zien dat ik de doelstelling van het project kan vast zetten en laten zie dat ik weet hoe de gebruiker ons product gaat gebruiken
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Lees indien iets AI-generated is beter door, nu worden er allerlei dingen bij verzonnen die niet relevant zijn.
+  - Ik ga AI minder vertrouwen :(
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Key Drivers | Ik heb voor dit project de Key Drivers gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/KeyDrivers/KeyDrivers.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de keydrivers te maken heb ik laten zien dat ik de doelstelling van de opdracht gever kan vaststellen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
+  - We hebben de keydrivers samengevoegd als team gezorgt dat superlatieven weg zijn en zo over het algemeen beter zijn
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Requirements en Constraints | Ik heb voor het project de requirements en Constraints Opgetzet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/docs/Requirements) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de requirments op te zetten heb ik een beter idee van de doelstelling van de opdracht gever
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Niet functionele requirements en functionele requirements soms omgedraaid (F2 bijvoorbeeld). Gebroken markdown bij F9, ook dit is een NF requirement bij de functionele. Requirements voor nu opstellen, niet voor het gehele project.
+  - Ik heb de requiremenst hierna opnieuw opgesteld met meer een focus op de simulatie, dit werd makkelijker omdat we na deze feedback amar voor de update de Keydrivers hadden opgesteld
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Systeem Architectuur Diagram | Ik heb voor ons project de Systeem Architectuur Diagram gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/systeem/systemarchitectuur.puml) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik een beter beeld gekregen van de opdracht
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Ziet er netjes uit
+  - NVT
+
+- Stuurt de controller data naar de Simulatie of leest de simulatie de controller uit
+  - De simulatie leest de controller uit -Nick
+  - Ik heb dit vervolgens aangepast in mijn model en in modellen in de toekomst zou dit nu ook goed staan
+
+
+---
+
+
 **Leeruitkomst 1 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door het ontwikkel document te maken hebben we laten zien dat we de vereiste en doelstelling kunnen vaststellen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Usecases | We hebben als team de individuele usecases samengevoegd | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/usecases/Readme.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de usecases te makken hebben we laten zien dat we de doelstelling van het project kunnen vast zetten en laten zien dat we weten hoe de gebruiker ons product gaat gebruiken
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Systeem Architectuur Diagram | Wij als team hebben met elkaar een systeem Architectuur diagram opgezet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/systemarchitecture/systeemarchitectuur.png) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen hebben we een beter beeld gekregen van de opdracht
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Requiremensts | We hebben als team de individuele requiremenst samengevoegd | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/requirements/Readme.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen hebben we als team een goed idee van de doelstelling van de opdracht gever
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| KeyDrivers | Mijn team en ik hebben voor dit project de Keydrivers gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/keydrivers/Keydrivers.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de keydrivers te makken hebben we laten zien dat we de doelstelling van de opdrachtgever kunnen vaststellen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
+  - Wij hebben vervolgens de keydrivers van 8 naar 3 samengevoegd
+
+- Geen vragen
+
+---
+
 
 ### Leeruitkomst 2 Ontwerpen
 
@@ -101,7 +259,90 @@ Indicatoren:
 
 **Leeruitkomst 2 Persoonlijke opdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Usecase Diagram | Ik heb voor ons project de Usecase Diagram opgezet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/Usecases/Usecasesdiagram.puml) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de usecase diagram op te zetten heb ik laten zien dat ik een model kan maken gebasseerd op de usecases
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- HOI lARS VOOR USECASES ZIJN ACTORS NODIG!! DE ONDERZEEER KAN OOK EEN ACTOR ZIJN, OVERWEEG BRAD PITT GROETJES,TEAM oCEANgATE
+  - Ik heb actors toegeovegd in mijn nieuwe model
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Object Model | Ik heb voor ons project een object model gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/Objectmodel/ObjectModel.puml) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Ik heb door dit oject model te maken een ontwerp gemaakt op basis van de requirements
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Teveel vooruitgedacht, te veel gets, te weinig sets.
+  - Ik heb hierna nog een keer dit model gemaakt wat meer in het nu is
+
+- Geen vragen
+
+---
+
+
 **Leeruitkomst 2 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door het ontwikkel document te maken hebben we laten zien dat we grafische representaties kunnen maken van onze requiremenst en usecases
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Usecase Diagram | We hebben als team onze individuele usecase diagrammen samengevoegd tot 1 model | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/usecases/usecasediagram.png) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de usecase diagram op te zetten hebben we laten zien dat we een model kunnen maken op basis van de usecases.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Object Model | Mijn team en ik hebben onze object modellen samengevoeg tot 1 model | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/ObjectModel/ObjectModel.png) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen hebben we als team laten zien dat we een ontwerp kunnen maken op basis van requirements en usecases
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 ### Leeruitkomst 3 Adviseren
 
@@ -131,6 +372,54 @@ Indicatoren:
 ---
 <!-- waarom deze niet orgineel -->
 **Leeruitkomst 4 Persoonlijke opdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Catch2 testen | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen kan ik makkelijk laten zien dat mijn nieuwe functie nog het zelfde werkt als mijn oude functie
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Algorithme Opdrachte | Ik heb de Algorithme opdrachten 1 tm 3 gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/algorithme) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de Algo opdrachte te maken heb ik meer ervaring gekregen met Big O, search algorithmes, datastructuren & pathfinding
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| OpenCV | Ik heb de OpenCV opdrachten gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/OpenCV) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de OpenCV opdrachten te maken heb ik ervaring gekregen met vision 
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -197,6 +486,23 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 **Leeruitkomst 4 Groepsopdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Defintion Of Done | Wij als team hebben een standaard Definition of Done opgezet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/Definition%20of%20Done/DoD.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de Defintion of Done op te zetten weten we wanneer een onderdeel af is en kunnen we dus verder met het volgende
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- comments in engelshardcode data weglet wat meer op spelling en sommige returns zijn vaagdoxygen comments bij lambda maar ga daarmee langs een docentthx Luuc
+  - Nog Niet Toegepast :(
+- Geen vragen
+
+---
+
+
 
 ### Leeruitkomst 5 Beheren
 
@@ -209,6 +515,22 @@ Indicatoren:
 - Testverslag
 ---
 **Leeruitkomst 5 Persoonlijke opdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Controller Documentatie | Ik heb documentatie geschreven over hoe je de controller moet verbinden met Gazebo en hoe je de plugin kan laten werken | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Project/Controller.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik gezorgd dat mijn controller plugin door andere mensen later gebruikt kan worden
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -242,6 +564,19 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 **Leeruitkomst 5 Groepsopdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- 
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
 ### Leeruitkomst 6 Toekomstgericht organiseren
 
 De student kan een probleem vertalen naar een product door randvoorwaarden en requirements op te stellen in overleg met de opdrachtgever. Het project wordt gestructureerd opgezet, uitgevoerd en opgeleverd, met aandacht voor omgevingsfactoren, en maatschappelijke en ethische aspecten.
@@ -253,6 +588,19 @@ Indicatoren:
 
 ---
 **Leeruitkomst 6 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door het ontwikkel document te maken hebben we laten zien dat we de randvoorwaarden en requirements kunnen opstellen in overleg met de opdracht gever.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -272,7 +620,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint verslag ](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Sprint-verslag.md) |
+| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint verslagen](hhttps://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/docs/Sprintverslagen) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -299,6 +647,22 @@ Indicatoren:
 **Leeruitkomst 7 Persoonlijke opdrachten:**
 
 **Leeruitkomst 7 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Product Owner Gesprekken | We maken aantekeningen bij de Product owner gesprekken als team zodat we hier later op terug kunnen kijken | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/docs/OpdrachtGever) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de gesprekken bij te houwen kunnen we later terug komen erop en er data uithalen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -374,4 +738,33 @@ Indicatoren:
 
 **Leeruitkomst 9 Persoonlijke opdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| DeepDive | Ik ben begonnen met mijn DeepDive | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/deepdive) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de deepdive te doen ben ik bezig geweest met een onderzoek, stel ik kritische vragen om relavanten informatie te verzamelen & die informatie te analyseren en daarmee me keuzes onderbouwen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
 **Leeruitkomst 9 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door het ontwikkel document te maken hebben we laten zien dat we praktijkgericht probleem kunnen oplossen door: onderzoek, kritische vragen te stellen & de informatie die daaruit komt gestructureerd kunnen analyseren reken houdend met maatschappelijke staandaarden en ethische aspecten
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
