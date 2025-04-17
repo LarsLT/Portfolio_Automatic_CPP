@@ -190,7 +190,7 @@ void Portfolio::get_item(const std::string &table)
                  std::views::transform([&](const std::string &)
                                        { return match[1].str(); });
 
-    item = items.front();
+    item = *items.begin();
 }
 
 void Portfolio::store_item()
