@@ -1,4 +1,12 @@
 Item: Plek
+: **Leeruitkomst 4 Persoonlijke opdrachten:**
+: **Leeruitkomst 7 Persoonlijke opdrachten:**
+: **Leeruitkomst 5 Groepsopdrachten:**
+: **Leeruitkomst 5 Groepsopdrachten:**
+: **Leeruitkomst 9 Groepsopdrachten:**
+: **Leeruitkomst 4 Persoonlijke opdrachten:**
+: **Leeruitkomst 5 Persoonlijke opdrachten:**
+: **Leeruitkomst 9 Groepsopdrachten:**
 // er gaat iets miss denk ik
 : **Leeruitkomst 1 Groepsopdrachten:**
 : **Leeruitkomst 5 Persoonlijke opdrachten:**

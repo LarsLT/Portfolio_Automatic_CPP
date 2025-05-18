@@ -375,6 +375,38 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Vision | Ik heb de Vision opdrachten gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/vision) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de Vision opdracht te maken heb ik ervaring gekregen met vision en python
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Verlichting | Ik heb voor het project een plugin gemaakt waarmee je de lampen op de onderzeeer kan besturen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/sprint-6/Gazebo) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de Lights Plugin te maken heb ik laten zien dat ik een product can realiseren op basis van de eisen van de opdracht gever.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Catch2 testen | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
 
 
@@ -455,7 +487,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Gazebo wereld | Ik heb voor mijn team een wereld gemaakt waarin we een water level hebben & een eiland met een grot zodat we onze robot kunnen testen | [.SDF file](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/Controller_support/Gazebo/OceanGate.sdf) |
+| Gazebo wereld | Ik heb voor mijn team een wereld gemaakt waarin we een water level hebben & een eiland met een grot zodat we onze robot kunnen testen | [.SDF file](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Gazebo/OceanGate.sdf) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -471,7 +503,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Controller Plugin | Ik heb voor het project een plugin geschreven waarmee mijn team een controller kan uitlezen tijdens de simulatie | [Github Folder](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/Controller_support/Gazebo) |
+| Controller Plugin | Ik heb voor het project een plugin geschreven waarmee mijn team een controller kan uitlezen tijdens de simulatie | [Github Folder](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Gazebo) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -515,6 +547,24 @@ Indicatoren:
 - Testverslag
 ---
 **Leeruitkomst 5 Persoonlijke opdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Gazebo Plugin Template | Voor mijn team heb ik een template gemaakt waarmee je makkelijk een Plugin kan maken in Gazebo | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Project/PluginTemplate.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door deze template te makenb heb ik laten zien dat ik een development omgeving kan op zetten voor mijn team waardoor ze sneller door kunnen gaan met programeren
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: Ziet er helemaal goed uit, je kan dit goed gebruiken voor Beheren
+  - NVT
+
+- Geen vragen
+
+---
+
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -563,6 +613,38 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ---
 
 **Leeruitkomst 5 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Sensor Documentatie | Voor de verschillende sensoren heb ik een markdown bestand gemaakt waarin staat op welke topic ze messagen en hoe ze zijn geimplementeerd | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/onderzoek/Sensor.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te documenteren heb ik laten zien dat ik een kan documenteren hoe iets nu werkt zodat dit later nagedaan kan worden
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Verlichting Documentatie | Ik heb voor de verlichting plugin een document geschreven waarmee je makkelijk kan testen als alles werkt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Project/Lights.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Deze documentatie zorgt ervoor dat we makkelijk kunnen testen als de plugin nog werkt
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -645,6 +727,22 @@ Indicatoren:
 ---
 
 **Leeruitkomst 7 Persoonlijke opdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Deepdive Presentatie | Ik heb op dinsdag 20 mei de DeepDive Presentatie gegeven aan de klas | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/deepdive) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door de Presentatie te geven ben ik actief bezig geweest met de relatie tussen mij en de stateholder actief te onderhouden
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 **Leeruitkomst 7 Groepsopdrachten:**
 
@@ -755,6 +853,38 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 **Leeruitkomst 9 Groepsopdrachten:**
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Onderzoek Sensoren Chasing M2 | Ik heb voor het project een onderzoek gedaan naar de verschillende sensoren plus camera en lights op de Chasing M2 onderwater drone | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/onderzoek/Sensor.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit onderzoek te doen heb ik laten zien dat ik data op een gestructureerde manier kan verzamelen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Onderzoek Kabel | Voor het project ben ik begonnen met een onderzoek over de kabel van de robot and hoe we die kunnen implementeren in Gazebo | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/onderzoek/Kabel.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit onderzoek te doen heb ik laten zien dat ik de wensen van de opdrachtgever centraal kan stellen en de relavante informatie op een relevanten en gestuctureerde manier te verzamelen en analyzeren
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
