@@ -1,8 +1,10 @@
 1
     Ontwikkel Document
+        sowieso alle feedback van teun toeveogen (die van verschillende docu)
 
 2
     Ontwikkel Document
+        sowieso alle feedback van teun toeveogen (die van verschillende docu)
 
 3
     nog niks
@@ -24,6 +26,7 @@
 
 6
     ontwikkel document
+        sowieso alle feedback van teun toeveogen (die van verschillende docu)
     sprint verslagen
 
 7
@@ -44,6 +47,7 @@
 
     Sensoren CHasing M2
     Ontwikkel Document
+        sowieso alle feedback van teun toeveogen (die van verschillende docu)
 
 OVerig
     AUtomatisch Peil Moment
