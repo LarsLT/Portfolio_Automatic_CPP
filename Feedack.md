@@ -21,6 +21,7 @@
     controller documentatie
         /nick
     sensor documentatie
+        NICK
     verlichting documentatie
         /nick
 
