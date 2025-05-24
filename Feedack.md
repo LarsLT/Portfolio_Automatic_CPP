@@ -62,6 +62,12 @@ OVerig
         feedback
             Geen feedback voor nodig
 
-    Catch 2
+    Catch 2 / test
 
     Dev Container
+
+    stl
+
+    algo
+
+    vision
