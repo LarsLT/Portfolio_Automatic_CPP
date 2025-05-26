@@ -375,6 +375,42 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Meerveld's Opdracht | Ik heb voor Meerveld een opdracht gemaakt zodat hij zijn challange kon afronden | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/Zelf/MEERVELD) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- DOor dit te doen heb ik laten zien dat ik Python code kan
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Meerveld: Heel erg bedanklt voor het maken en het juiste antwoord
+  - Ben gewoon beter
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Automatisch Peil Moment | Ik heb voor dit semsester het peilmoment zo automatisch mogelijk gemaakt | [Github](https://github.com/LarsLT/Portfolio_Automatic_CPP) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te maken heb ik laten zien dat ik Concepts, Iterators/ranges en lamdba functies begrijp
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Teun: Maak een MD met de Magic Values/ Regex en andere keuzes uitgelegd zodat je hier later naar terug kan komen
+  - Nog niet verwerkt ga dat ook niet doen dit semester
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Vision | Ik heb de Vision opdrachten gemaakt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/vision) |
 
 
@@ -399,7 +435,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Nick: Net al bij tom gezien dat je voor de lamp de hele lamp moet maken, ziet er goed uit
+  - Ziet er goed uit
 - Geen vragen
 
 ---
@@ -463,7 +500,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Bart: Netjes!
+  - Denk dat het wel goed is
 - Geen vragen
 
 ---
@@ -511,7 +549,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Nick: Probeer magic nummers weg te halen (bvb bij de byte arr van de controller uitlezen)
+  - ik heb die veranderd voor 
 - Geen vragen
 
 ---
@@ -550,6 +589,22 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Dev Container | Ik heb de Dev Container Gemaakt voor mijn team | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/.devcontainer) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Ik heb een Professionele ontwikkelomgeving opgezet voor mijn team.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Gazebo Plugin Template | Voor mijn team heb ik een template gemaakt waarmee je makkelijk een Plugin kan maken in Gazebo | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Project/PluginTemplate.md) |
 
 
@@ -576,7 +631,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Nick: ziet er goed uit
+  - ziet er goed uit
 - Geen vragen
 
 ---
@@ -640,7 +696,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Nick: prima goed gedocumenteerd
+  - prima goed gedocumenteerd
 - Geen vragen
 
 ---
@@ -730,6 +787,27 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Klimaat Examen | Ik heb het klimaat examen gemaakt | [LinkedIn](https://www.linkedin.com/school/hogeschool-utrecht/posts/?feedView=all) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit klimaat examen te maken heb ik laten zien dat het klimaat mij interreseert
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Je hoeft hier geen feedback voor te vragen
+  - IDK zal wel goed zijn dan
+
+- Lars: Kan je zeggen dat ik het klimaat examen goed heb gemaakt? Nick: Waarom? Lars: Feedback.:)
+  - Daar hoef je geen feedback voor te vragen
+  - Hoefte ik blijkbaar geen feedback voor te vragen
+
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Deepdive Presentatie | Ik heb op dinsdag 20 mei de DeepDive Presentatie gegeven aan de klas | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/deepdive) |
 
 
@@ -738,7 +816,16 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Luuc: Ziet er goed uit.
+  - ziet er goed uit
+- Tim: bronnen lijst apa stijl en [n] notes presenatatie bronnen dia
+  - Ik heb de bronnen toegevoed aan mijn onderzoek, samen met notes en het onderzoek aan de presentatie, maar geen bronnen per dia vermeld
+- Nick: geef wat meer context maar je wist je code goed
+  - Voortaan aan het begin wat meer context geven
+- Tom: wat meer context aan het begin zou fijn zijn geweest 
+  - Voortaan aan het begin wat meer context geven
+- Rick: text was te klein
+  - Voortaan aan de text testen zodat ik weet dat het groot genoeg is voor iedereen achterin
 - Geen vragen
 
 ---
@@ -791,6 +878,28 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Voorbereiding loopbaankeuzes | IK heb de opdracht gemaakt waar ik mij voorbereide op de loopbaankeuzes | [Github](https://canvas.hu.nl/courses/44572/assignments/347406/submissions/276309) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik laten zien dat ik mij kan voorbereiden op de LoopbaanKeuzes
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Len: 
+  - Je hebt de opdracht goed uitgewerkt. Ik herken jou ook in de beschrijving bij jouw kwaliteiten. Bij te ontwikkelen kwaliteiten staan vooral inhoudelijke dingen. Ik zie dat je veel potentie hebt en dat je graag een leidinggevende rol  zou willen. Dat is een mooie ambitie! Wat ik je graag wil meegeven, is dat effectieve communicatie een cruciale vaardigheid is in leiderschap. Soms kan je manier van communiceren heel direct overkomen, wat ervoor kan zorgen dat anderen het als bot ervaren. Als je daarin iets meer finesse en tact ontwikkelt, zul je merken dat mensen nog beter naar je luisteren en positiever reageren. 
+    - moet iets minder deirect zijn meer finesse en tact
+  - Jouw actiepunten en verdere stappen heb je heel goed uitgewerkt. Complimenten hiervoor. 
+    - THX
+  - De stagebedrijvenmiddag op 24 april is mogelijk een goede optie, maar je kunt ook op Onstage kijken voor vacatures en op de stagepagina van Canvas kun je bedrijven vinden waar eerder studenten van TI hebben stage gelopen https://canvas.hu.nl/files/4898457/download?download_frd=1
+    - gedaan
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Sollicitatie brief en CV | Ik heb voor mijn project keuze een sollicitatie brief & cv gemaakt | [Canvas](https://canvas.hu.nl/courses/44572/assignments/344565) |
 
 
@@ -799,8 +908,23 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Check canvas
-  - Ik heb de foute punten uit mijn CV en Sollicitatie brief gehaald en beide geupdate met de nieuwe feedback
+- Bart: 
+  - best sterk, 
+    - thx
+  - " Ik ben al langere tijd op zoek .... aan het opsporen van voertuigen en wrakken" --->   ECHT??? JE WAS HIER AL LANGERE TIJD NAAR OP ZOEK? NAAR DEZE SPECIFIEKE FUNCTIE??? Zoals je merkt geloof ik daar geen snars van. Veel te specifiek. Het kan wel zijn dat je bv jouw vaardigheden wilt inzetten om mensen te helpen. Of dat je een passie voor de brandweer hebt. Of ....     Nu heb je het echt veel te specifiek neergezet waardoor het ongeloofwaardig wordt...
+    - Voortaan ga ik niet zo speciefiek zijn en laten zien waarom ik goed ben voor de baan 
+  - Voor de rest goede brief.
+    - thx
+
+- Bart:  
+  - voor mij onduidelijk dat je de studie nog niet hebt afgerond... tip:   https://www-icslearn-co-uk.translate.goog/blog/career-development/how-to-list-an-in-progress-qualification-on-your-cv/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=rq#:~:text=If%20the%20qualification%20you're,the%20top%20of%20your%20CV
+    - Speciefieker geweest dat ik nog actief bezig ben met de studie door aan te geven dat ik nog niet klaar ben
+  - Bij eigenschappen lijk je wel een beetje "buzzword bingo"  gespeeld te hebben. Ik zou het specifieker maken, wat zijn jou echte sterke punten???
+    - Ik heb dit weggehaald omdat het niet nuttig vond 
+  - Vaardigheden en professional skills en eigenschappen zitten doublures in. Beetje raar om al die 3 categorieen zo te benoemen. Software ontwikkeling staat al bij professional skills. Teamwerk staat al bij Eigenschappen. 
+    - gewoon 1 punt van gemaakt
+  - Ik heb nog niet echt een beeld van je nu.... Ik lees te veel waardoor het een brei is, en ik niet weet wat jouw sterke punten zijn...
+    - Ik heb mijn eigen projecten toegevoegd
 
 - Geen vragen
 
@@ -838,6 +962,26 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Klimaat Examen | Ik heb het klimaat examen gemaakt | [Linkedin](https://www.linkedin.com/school/hogeschool-utrecht/posts/?feedView=all) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit klimaat examen te maken heb ik laten zien dat het klimaat mij interreseert
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Je hoeft hier geen feedback voor te vragen
+  - IDK zal wel goed zijn dan
+
+- Lars: Kan je zeggen dat ik het klimaat examen goed heb gemaakt? Nick: Waarom? Lars: Feedback.:)
+  - Daar hoef je geen feedback voor te vragen
+  - Hoefte ik blijkbaar geen feedback voor te vragen
+
+
+---
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | DeepDive | Ik ben begonnen met mijn DeepDive | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/deepdive) |
 
 
@@ -846,7 +990,16 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Luuc: Ziet er goed uit.
+  - ziet er goed uit
+- Tim: bronnen lijst apa stijl en [n] notes presenatatie bronnen dia
+  - Ik heb de bronnen toegevoed aan mijn onderzoek, samen met notes en het onderzoek aan de presentatie, maar geen bronnen per dia vermeld
+- Nick: geef wat meer context maar je wist je code goed
+  - Voortaan aan het begin wat meer context geven
+- Tom: wat meer context aan het begin zou fijn zijn geweest 
+  - Voortaan aan het begin wat meer context geven
+- Rick: text was te klein
+  - Voortaan aan de text testen zodat ik weet dat het groot genoeg is voor iedereen achterin
 - Geen vragen
 
 ---
@@ -864,7 +1017,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Nick: Overzichtelijk ziet er prima uit
+  - ziet er prima uit
 - Geen vragen
 
 ---

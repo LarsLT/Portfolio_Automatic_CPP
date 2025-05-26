@@ -10,20 +10,10 @@
     nog niks
 
 4
-    verlichting
-        nick
     catch2 testen
     open cv
-    controller plugin
-        nick
     
 5
-    controller documentatie
-        /nick
-    sensor documentatie
-        NICK
-    verlichting documentatie
-        /nick
 
 6
     ontwikkel document
@@ -31,43 +21,17 @@
     sprint verslagen
 
 7
-    deepdive presentatie
-        tim 
-        luuc
     PO gesprekken
     sprint verslagen
 
 8 
-    CV
     Team Contract
 
 9
-    Deepdive
-        tim
-        luuc
-
-    Sensoren CHasing M2
     Ontwikkel Document
         sowieso alle feedback van teun toeveogen (die van verschillende docu)
 
 OVerig
-    AUtomatisch Peil Moment
-        teun
-    Controller plugin voor concepts regex en func 
-        teun en nick
-    klimaat
-        vraag
-            mag ik feedback
-            ne
-        feedback
-            Geen feedback voor nodig
-
     Catch 2 / test
 
     Dev Container
-
-    stl
-
-    algo
-
-    vision
