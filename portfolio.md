@@ -91,6 +91,22 @@ Indicatoren
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| GAP analyze requirements-keydrivers | Voor mijn team heb ik een GAP analyze gemaakt tussen de requirements en de Keydrivers op te zien waar keydrivers niet goed zijn afgedekt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/Sprint-7/docs/Opdracht/gap-analyse) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door deze Gab analyze te maken hebben we de doelstelling strakker en weten we waar we requirements moeten toevoegen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Usecases | Ik heb voor het project de Usecases opgezet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/Usecases/Usecases.md) |
 
 
@@ -357,6 +373,38 @@ Indicatoren:
 
 **Leeruitkomst 3 Groepsopdrachten:**
 
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Pitch presentatie | Mijn groep en ik hebben een pitch gegeven voor ons Project | [Github](https://docs.google.com/presentation/d/1-eXGgHFOeNiSDu4YysbDhBMUzKBmvVuxiaqjGviIx0M/edit?usp=sharing) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- In de presentatie hebben mijn team en ik advies gegeven
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| PO Gesprekken | Mijn team en ik geven elke 2 weken een presentatie aan onze Product Owner | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO%20Gesprek.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Tijdens deze gesprekken adviseren wij de opdracht gever
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Geen feedback
+- Geen vragen
+
+---
+
+
 ### Leeruitkomst 4 Realiseren
 
 Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedded systeem, inclusief grafische representatie. Hierbij wordt gewerkt volgens een voorgeschreven methode waarin testen centraal staat, ten behoeve van het uitvoeren van tests op verschillende ontwikkelniveaus. Testresultaten, omstandigheden en afhankelijkheden worden helder gedocumenteerd, omwille van het reproduceren van de testresultaten. 
@@ -492,7 +540,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Gazebo opdrachten | Ik heb de Gazebo opdrachten gemaakt | [canvas](https://canvas.hu.nl/courses/44572/assignments/343364)[canvas2](https://canvas.hu.nl/courses/44572/assignments/343365) |
+| Gazebo opdrachten | Ik heb de Gazebo opdrachten gemaakt | [Canvas](https://canvas.hu.nl/courses/44572/assignments/343364)[canvas2](https://canvas.hu.nl/courses/44572/assignments/343365) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -878,7 +926,7 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Voorbereiding loopbaankeuzes | IK heb de opdracht gemaakt waar ik mij voorbereide op de loopbaankeuzes | [Github](https://canvas.hu.nl/courses/44572/assignments/347406/submissions/276309) |
+| Voorbereiding loopbaankeuzes | IK heb de opdracht gemaakt waar ik mij voorbereide op de loopbaankeuzes | [Canvas](https://canvas.hu.nl/courses/44572/assignments/347406/submissions/276309) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
