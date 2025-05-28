@@ -30,10 +30,10 @@
 
 | Onderwerp       | Graag invullen |
 | --------------- | -------------- |
-| *Peilmoment*    | `peilmoment 2`   |
+| *Peilmoment*    | `peilmoment 3`   |
 | *Naam student*  | `Lars Tokkie`  |
 | *Studentnummer* | `1849354`      |
-| *Datum*         | `17-4-2025` |
+| *Datum*         | `28-05-2025` |
 
 
 Beste student, 
@@ -64,13 +64,13 @@ Succes met de uitwerking van de verantwoording!
 ## Algemeen
 
 *Waar ik het meest trots op ben:*
-- Ik ben het meest trots op de vooruitgangen die ik heb gemaakt met scrum werken, ik update vaker mijn planboard dan ooit en zorg erook voor dat de opdrachten die we als team goed gestructureerd lopen
+- Ik ben het meest trots op twee dingen, de vooruitgang die ik heb gemaakt in het vragen van feedback aan docenten en dat verwerken & de verbeteringen die ik heb gemaakt in techlead zijn voor mijn team
 
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
-- Afgelopen periode heb ik moeite gehad met optijd naar de docent stappen als ik vragen heb over de opdracht
+- de afgelopen periode vond ik het moeilijk om door te gaan met andere onderdelen van het project als 1 gedeelte vast liep, we wachte soms te lang op feedback van teun waardoor er te weinig gebeurt, om dit te verbeten heb ik mijn team gevraagd om hulp zodat we elkaar meer aan het werk houden.
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
-- Ik ga voortaan sneller naar de opdracht gever en heb mijn teamgenoten om hulp gevraagd me hier mee te helpen
+- Ik wil graag leren om beter te worden met scrum zodat we dit sneller en efficenter kunnen doen zodat we het project zo snel mogelijk afmaken
 
 ---
 
