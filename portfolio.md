@@ -30,10 +30,10 @@
 
 | Onderwerp       | Graag invullen |
 | --------------- | -------------- |
-| *Peilmoment*    | `peilmoment 3`   |
+| *Peilmoment*    | `peilmoment 4`   |
 | *Naam student*  | `Lars Tokkie`  |
 | *Studentnummer* | `1849354`      |
-| *Datum*         | `28-05-2025` |
+| *Datum*         | `19-06-2025` |
 
 
 Beste student, 
@@ -64,13 +64,13 @@ Succes met de uitwerking van de verantwoording!
 ## Algemeen
 
 *Waar ik het meest trots op ben:*
-- Ik ben het meest trots op twee dingen, de vooruitgang die ik heb gemaakt in het vragen van feedback aan docenten en dat verwerken & de verbeteringen die ik heb gemaakt in techlead zijn voor mijn team
+- ik ben het meest trots in de vooruitgangen die we as team hebben gewerkt, sinds de laatste sprint zijn we meer samen gaan werken, zijn luuc en ik betere techlead en scrum daddy geworden en zijn we als team beter in weten wat iedereen doet en als iemand hulp nodig heeft
 
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
-- de afgelopen periode vond ik het moeilijk om door te gaan met andere onderdelen van het project als 1 gedeelte vast liep, we wachte soms te lang op feedback van teun waardoor er te weinig gebeurt, om dit te verbeten heb ik mijn team gevraagd om hulp zodat we elkaar meer aan het werk houden.
+- De laatste periode vond ik het wat lastigere om optijd feedback momenten in te plannen wat er voor zorgde dat groten delen van de feedback die ik heb zijn opgehaald in de laatste 10 dagen
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
-- Ik wil graag leren om beter te worden met scrum zodat we dit sneller en efficenter kunnen doen zodat we het project zo snel mogelijk afmaken
+- Ik wil graag leren hoe ik dit semester haal, om dit te doen ga ik mijn peilmoment inleveren en hopen op het besten 
 
 ---
 
@@ -99,7 +99,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Nick: ziet er goed uit maar had eerder gemoeten want dan had je er iets mee kunnen doen, zijn wel nuttige dingen om mee te oefenen, goed inniatief
+  - ik ga dit voortaan eerder doen zodat we als team en ik als individu er meer aan heb.
 - Geen vragen
 
 ---
@@ -117,7 +118,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Lees indien iets AI-generated is beter door, nu worden er allerlei dingen bij verzonnen die niet relevant zijn.
   - Ik ga AI minder vertrouwen :(
-
+//TODO feedback teun
 - Geen vragen
 
 ---
@@ -133,7 +134,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
+- TEUN: Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
   - We hebben de keydrivers samengevoegd als team gezorgt dat superlatieven weg zijn en zo over het algemeen beter zijn
 
 - Geen vragen
@@ -151,7 +152,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Niet functionele requirements en functionele requirements soms omgedraaid (F2 bijvoorbeeld). Gebroken markdown bij F9, ook dit is een NF requirement bij de functionele. Requirements voor nu opstellen, niet voor het gehele project.
+- TEUN: Niet functionele requirements en functionele requirements soms omgedraaid (F2 bijvoorbeeld). Gebroken markdown bij F9, ook dit is een NF requirement bij de functionele. Requirements voor nu opstellen, niet voor het gehele project.
   - Ik heb de requiremenst hierna opnieuw opgesteld met meer een focus op de simulatie, dit werd makkelijker omdat we na deze feedback amar voor de update de Keydrivers hadden opgesteld
 
 - Geen vragen
@@ -192,7 +193,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 ---
@@ -208,7 +209,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO TEUN
 - Geen vragen
 
 ---
@@ -224,7 +225,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO TEUN
 - Geen vragen
 
 ---
@@ -240,7 +241,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO TEUN
 - Geen vragen
 
 ---
@@ -256,7 +257,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
+- TEUN: Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
   - Wij hebben vervolgens de keydrivers van 8 naar 3 samengevoegd
 
 - Geen vragen
@@ -285,9 +286,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- HOI lARS VOOR USECASES ZIJN ACTORS NODIG!! DE ONDERZEEER KAN OOK EEN ACTOR ZIJN, OVERWEEG BRAD PITT GROETJES,TEAM oCEANgATE
+- TEAM: HOI lARS VOOR USECASES ZIJN ACTORS NODIG!! DE ONDERZEEER KAN OOK EEN ACTOR ZIJN, OVERWEEG BRAD PITT GROETJES,TEAM oCEANgATE
   - Ik heb actors toegeovegd in mijn nieuwe model
-
+ //TODO TEUN
 - Geen vragen
 
 ---
@@ -305,7 +306,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Teveel vooruitgedacht, te veel gets, te weinig sets.
   - Ik heb hierna nog een keer dit model gemaakt wat meer in het nu is
-
+ //TODO TEUN
 - Geen vragen
 
 ---
@@ -323,7 +324,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 ---
@@ -338,7 +339,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO TEUN
 - Geen vragen
 
 ---
@@ -354,7 +355,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO TEUN
 - Geen vragen
 
 ---
@@ -383,7 +384,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO NICK TEAM TEAM BART JAN
 - Geen vragen
 
 ---
@@ -399,7 +400,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO alle feedback verschillende opdrachten
 - Geen vragen
 
 ---
@@ -467,7 +468,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO BART MORGEN
 - Geen vragen
 
 ---
@@ -500,7 +501,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO NICK
 - Geen vragen
 
 ---
@@ -516,7 +517,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO NICK
 - Geen vragen
 
 ---
@@ -532,7 +533,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO NICK
 - Geen vragen
 
 ---
@@ -565,7 +566,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO NICK
 - Geen vragen
 
 ---
@@ -581,7 +582,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO NICK
 - geen vragen
 
 ---
@@ -615,8 +616,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- comments in engelshardcode data weglet wat meer op spelling en sommige returns zijn vaagdoxygen comments bij lambda maar ga daarmee langs een docentthx Luuc
-  - Nog Niet Toegepast :(
+- TEAM: comments in engelshardcode data weglet wat meer op spelling en sommige returns zijn vaagdoxygen comments bij lambda maar ga daarmee langs een docentthx Luuc
+  - Nog Niet Toegepast :(   //TODO FOUT
 - Geen vragen
 
 ---
@@ -645,7 +646,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO NICK
 - Geen vragen
 
 ---
@@ -728,7 +729,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO NICK
 - Geen vragen
 
 ---
@@ -744,7 +745,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Nick: prima goed gedocumenteerd
+- Nick: prima goed gedocumenteerd  //TODO NICK
   - prima goed gedocumenteerd
 - Geen vragen
 
@@ -761,7 +762,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback  //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 ### Leeruitkomst 6 Toekomstgericht organiseren
@@ -786,7 +787,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 | Portfolio-item | Beschrijving | Bewijslast |
@@ -799,7 +800,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO LUUC
 - Geen vragen
 
 ---
@@ -815,7 +816,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 ---
@@ -891,7 +892,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 ---
@@ -907,7 +908,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
 
 ---
@@ -991,7 +992,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO
 - Geen vragen
 
 ---
@@ -1082,7 +1083,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO 
 - Geen vragen
 
 ---
@@ -1098,5 +1099,5 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
+- Geen feedback //TODO ALLE FEEDBACK DOCU
 - Geen vragen
