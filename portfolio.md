@@ -316,6 +316,44 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| Activity Diagram Lamp | Ik heb voor de lamp plugin een Activity Diagram gemaakt zodat je makkelijk kan zien hoe die loopt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/ActivityDiagram/Activity%20Diagram%20lamp.png) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te maken heb ik laten zien dat ik grafische representaties kan maken van hoe code werkt voor het project
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: Als je diagram twee paden tegelijk moet volgen kan je een fork gebruiken om dit netjes weer te geven
+  - Voortaan zou ik als mijn code teglijkertijd runt een fork gebruiken om dit visueel weer te geven.
+- Nick: Om je model er beter uit te laten zien zijn er verschillende mogelijkheden, maar de makkelijkste is exporteren naar drawio en dan handmatig neer zetten
+  - Voortaan zou ik het eerst exporteren naar drawio om het leestbaar te maken voordat ik een png ervan maak, ook ga ik onderzoek doen hoe ik dit met code perfect kan doen de eerste keer
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| SSE Backent Website | Ik heb voor mijn team de SSE backend gemaakt zodat wij een grafische representatie hebben van het product | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/app/README.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door deze SSE te maken was het voor mijn team heel makkelijk om data van de backend naar de frontend te krijgem
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: Probeer wat meer DRY te gebruiken maar zet er goed uit, het heeft nu geen zin om tijd in DRY te steken maar voor de volgende keer proberen
+  - Voortaan zal ik, asl er tijd is, zorgen dat er minder duplicate code is.
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
 
 
@@ -501,7 +539,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO NICK
+- NICK: ziet er heel erg goed en proffesioneel uit, je moet wel bij de inleiding referen naar de key drivers, waarom je dit doet.
+  - helaas heb ik geen tijd meer om dit goed te verwerken maar ik neem deze feedback wel mee naar volgende projecten en heb gezorgt dat mijn team hier ook op de hoogde van was zodat zij een beter eerste product leveren
 - Geen vragen
 
 ---
@@ -517,7 +556,12 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO NICK
+- ALGO 1 geen feedback
+- ALGO 2 NICK: was mooi geweest om je eigen functies te gebruiken voor leeg en vol
+  - volgende keer zou ik nadat ik mijn code heb geschreven kijken naar eventuele functies die mijn code beter maken door middel van dry
+- ALDS 3 NICK: ziet er goed uit code klopt redeneringen zijn correcet
+  - Ik begrijp het
+
 - Geen vragen
 
 ---
@@ -533,7 +577,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO NICK
+- NICK  de out put ziet er goed uit maar indehoudelijk geen feedback
+  - Ik ga proberen nog langs bart te gaan om hier optijd feedback op te krijgen
 - Geen vragen
 
 ---
@@ -566,7 +611,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO NICK
+- NICK: Je count functie had makkelijke gekund door de ingebouwde functies, maar voor de rest ziet het er goed uit, doe je geen gekke dingen en maak je goed gebruik van de stl
+  - Voor de volgende keer weet ik dat ik nog beter moet zoeken naar verschillende handige STL functie.
 - Geen vragen
 
 ---
@@ -582,7 +628,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO NICK
+- Nick: Ziet er goed uit
+  - Ziet er goed uit
 - geen vragen
 
 ---
@@ -600,6 +647,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Probeer magic nummers weg te halen (bvb bij de byte arr van de controller uitlezen)
   - ik heb die veranderd voor 
+- TEAM: comments in engels hardcode data weglet wat meer op spelling en sommige returns zijn vaagdoxygen comments bij lambda maar ga daarmee langs een docentthx Luuc
+  - Ik heb de comments naar het engels gezet en gechecked op spelling, had helas nog niet alle hardcoded data weggehaalt waardoor nick het nog een eer zei later
 - Geen vragen
 
 ---
@@ -616,8 +665,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- TEAM: comments in engelshardcode data weglet wat meer op spelling en sommige returns zijn vaagdoxygen comments bij lambda maar ga daarmee langs een docentthx Luuc
-  - Nog Niet Toegepast :(   //TODO FOUT
+- Geen feedback
 - Geen vragen
 
 ---
@@ -646,7 +694,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO NICK
+- NICK: heel professioneel opgezet, goed nagedacht over behoeften van het team. Helder gedocumenteerd
+  - Goed
 - Geen vragen
 
 ---
@@ -729,7 +778,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO NICK
+- NICK: Prima
+  - Prima
 - Geen vragen
 
 ---
@@ -746,7 +796,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: prima goed gedocumenteerd  //TODO NICK
-  - prima goed gedocumenteerd
+  - Prima goed gedocumenteerd
 - Geen vragen
 
 ---
@@ -1011,6 +1061,42 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
+| .gitattirbutes | Ik heb voor de devcontainer een .gitatributes moeten maken zodat de Windows en Linux verschillen geen errors gaven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/.gitattributes) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen heb ik laten zien dat ik een onderzoek kan doen naar de problemen die veroorzaakt worden en hoe ik die kan oplossen
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: Dit is heel erg handig, wij zelf hadden hier ook een probleem mee dus dit is zeker handig om te documeteren
+  - Volgende keer zou ik het weer doen.
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| SSE Backend website | Ik heb voor mijn team een manier onderzocht hoe wij data van de backend naar de frontend kunnen sturen door SSE | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/app/README.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- DOor dit te doen heb ik laten zien dat ik door onderzoek de beste oplossing kan vinden voor een probleem
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: Probeer wat meer DRY te gebruiken maar zet er goed uit, het heeft nu geen zin om tijd in DRY te steken maar voor de volgende keer proberen
+  - Voortaan zal ik, asl er tijd is, zorgen dat er minder duplicate code is.
+
+- Geen vragen
+
+---
+
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
 | Klimaat Examen | Ik heb het klimaat examen gemaakt | [Linkedin](https://www.linkedin.com/school/hogeschool-utrecht/posts/?feedView=all) |
 
 
@@ -1083,7 +1169,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO 
+- Geen feedback //TODO LUUC / TEUN
 - Geen vragen
 
 ---
