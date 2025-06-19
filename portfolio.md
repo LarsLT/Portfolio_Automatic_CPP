@@ -5,8 +5,6 @@
 ### Inhoud[](toc-id)
 
 - [Portfolio Technische Informatica (TI) semester 4 (S4)](#portfolio-technische-informatica-ti-semester-4-s4)
-  - [Deel 1 Algemeen.](#deel-1-algemeen)
-  - [Deel 2 Leeruitkomsten.](#deel-2-leeruitkomsten)
 - [Algemeen](#algemeen)
 - [Leeruitkomsten](#leeruitkomsten)
   - [Leeruitkomst 1 Analyseren](#leeruitkomst-1-analyseren)
@@ -14,7 +12,6 @@
   - [Leeruitkomst 3 Adviseren](#leeruitkomst-3-adviseren)
   - [Leeruitkomst 4 Realiseren](#leeruitkomst-4-realiseren)
   - [Leeruitkomst 5 Beheren](#leeruitkomst-5-beheren)
-- [Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.](#onderbouwing-hoe-deze-portfolio-items-hebben-bijgedragen-aan-het-aantonen-van-deze-leeruitkomst)
   - [Leeruitkomst 6 Toekomstgericht organiseren](#leeruitkomst-6-toekomstgericht-organiseren)
   - [Leeruitkomst 7 Doelgericht interacteren](#leeruitkomst-7-doelgericht-interacteren)
   - [Leeruitkomst 8 Persoonlijk leiderschap](#leeruitkomst-8-persoonlijk-leiderschap)
@@ -30,47 +27,22 @@
 
 | Onderwerp       | Graag invullen |
 | --------------- | -------------- |
-| *Peilmoment*    | `peilmoment 4`   |
+| *Peilmoment*    | `Peilmoment 4` |
 | *Naam student*  | `Lars Tokkie`  |
 | *Studentnummer* | `1849354`      |
-| *Datum*         | `19-06-2025` |
+| *Datum*         | `19-06-2025`   |
 
-
-Beste student, 
-
-Dit is het verantwoordingsdocument waarin je op vier verschillende peilmomenten in het semester aangeeft wat je allemaal hebt gedaan ten opzichte van de leeruitkomsten van het semester zodat er een goed beeld ontstaat waar je staat in dit semester. Het document heeft twee delen:
-
-### Deel 1 Algemeen.
-Geef eerst kort aan:
-- Waar je trots op bent.
-- Waar je tegenaan bent gelopen. 
-- Wat je nog wilt leren. 
-
-### Deel 2 Leeruitkomsten.
-Per leeruikomst is er een algemene beschrijving van de leeruitkomst en voorbeelden van indicatoren die je kan gebruiken. 
-- Geef per leeruitkomst aan wat je voor werk hebt gedaan en geef daarbij een link naar het werk op Canvas of Github. 
-- Maak hierbij een onderscheid in persoonlijke opdrachten en groepsopdrachten.
-- Als je een portfolio item maakt van groepswerk geef dan duidelijk aan wat jouw eigen bijdrage is. 
-- Vervolgens geef je hier een korte, puntsgewijze onderbouwing bij. Verwijs bij elk punt zo concreet mogelijk naar een [portfolio-item](https://github.com/HU-TI-DEV/TI-S4/blob/main/Portfolio-items.md). 
-
-
-
-**Belangrijk is dat bij elk portfolio-item dat je gebruikt in je onderbouwing ook feedback is aangegeven van docenten en experts**. Deze feedback kan je dan gebruiken om te onderbouwen dat wat je hebt gedaan ook goed is.
-
-Jouw docenten gebruiken deze verantwoording om te bepalen in hoeverre je op schema ligt en aan welke leeruitkomsten je nog (extra) aandacht moet besteden. Zij zullen je hier feedback op geven zoals tops (feedback) over wat er al goed gaat en tips (feed forward) over wat je kunt doen om je nog verder te ontwikkelen ten opzichte van die leeruitkomst.
-
-Succes met de uitwerking van de verantwoording!
 
 ## Algemeen
 
 *Waar ik het meest trots op ben:*
-- ik ben het meest trots in de vooruitgangen die we as team hebben gewerkt, sinds de laatste sprint zijn we meer samen gaan werken, zijn luuc en ik betere techlead en scrum daddy geworden en zijn we als team beter in weten wat iedereen doet en als iemand hulp nodig heeft
+- Ik ben het meest trots in de vooruitgangen die we as team hebben gewerkt, sinds de laatste sprint zijn we meer samen gaan werken, zijn luuc en ik betere techlead en scrum daddy geworden en zijn we als team beter in weten wat iedereen doet en als iemand hulp nodig heeft
 
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
-- De laatste periode vond ik het wat lastigere om optijd feedback momenten in te plannen wat er voor zorgde dat groten delen van de feedback die ik heb zijn opgehaald in de laatste 10 dagen
+- De laatste periode vond ik het wat lastig om optijd feedback momenten in te plannen wat er voor zorgde dat groten delen van de feedback die ik heb zijn opgehaald in de laatste 10 dagen
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
-- Ik wil graag leren hoe ik dit semester haal, om dit te doen ga ik mijn peilmoment inleveren en hopen op het besten 
+- Ik wil GO leren, aangezien mijn stage daar gebruik van maakt, om dit optijd te kunnen ga ik in de vakantie beginnen met kleine en grote go projecten waaronder mijn oude projecten herschrijven.
 
 ---
 
@@ -89,19 +61,36 @@ Indicatoren
 
 **Leeruitkomst 1 Persoonlijke opdrachten:**
 
+
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| GAP analyze requirements-keydrivers | Voor mijn team heb ik een GAP analyze gemaakt tussen de requirements en de Keydrivers op te zien waar keydrivers niet goed zijn afgedekt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/Sprint-7/docs/Opdracht/gap-analyse) |
+| Testplan | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door deze Gab analyze te maken hebben we de doelstelling strakker en weten we waar we requirements moeten toevoegen
+- Door dit te doen kan ik makkelijk laten zien dat mijn nieuwe functie nog het zelfde werkt als mijn oude functie.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Nick: ziet er goed uit maar had eerder gemoeten want dan had je er iets mee kunnen doen, zijn wel nuttige dingen om mee te oefenen, goed inniatief
-  - ik ga dit voortaan eerder doen zodat we als team en ik als individu er meer aan heb.
-- Geen vragen
+- Nick: ziet er heel erg goed en proffesioneel uit, je moet wel bij de inleiding referen naar de key drivers, waarom je dit doet.
+  - Helaas heb ik geen tijd meer om dit goed te verwerken maar ik neem deze feedback wel mee naar volgende projecten en heb gezorgt dat mijn team hier ook op de hoogde van was zodat zij een beter eerste product leveren.
+- Geen vragen.
+
+---
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| GAP analyze requirements-keydrivers | Voor mijn team heb ik een GAP analyze gemaakt tussen de requirements en de Keydrivers op te zien waar keydrivers niet goed zijn afgedekt | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/gap-analyse/KeydriversGap.md) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door deze Gab analyze te maken hebben we de doelstelling strakker en weten we waar we requirements moeten toevoegen.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: Ziet er goed uit maar had eerder gemoeten want dan had je er iets mee kunnen doen, zijn wel nuttige dingen om mee te oefenen, goed inniatief.
+  - Ik ga dit voortaan eerder doen zodat we als team en ik als individu er meer aan heb.
+- Geen vragen.
 
 ---
 
@@ -112,17 +101,17 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de usecases te maken heb ik laten zien dat ik de doelstelling van het project kan vast zetten en laten zie dat ik weet hoe de gebruiker ons product gaat gebruiken
+- Door de usecases te maken heb ik laten zien dat ik de doelstelling van het project kan vast zetten en laten zie dat ik weet hoe de gebruiker ons product gaat gebruiken.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Lees indien iets AI-generated is beter door, nu worden er allerlei dingen bij verzonnen die niet relevant zijn.
-  - Ik ga AI minder vertrouwen :(
+  - Ik ga AI minder vertrouwen :(.
 
-- TEUN: Usecases op zich prima, we gaan deze gebruiken, beetje nutteloos om nog meer tijd te steken hierin
+- Teun: Usecases op zich prima, we gaan deze gebruiken, beetje nutteloos om nog meer tijd te steken hierin.
   - Use cases met rust gelaten, omdat deze prima waren en we er niet meer tijd in wilden steken.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -133,14 +122,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de keydrivers te maken heb ik laten zien dat ik de doelstelling van de opdracht gever kan vaststellen
+- Door de keydrivers te maken heb ik laten zien dat ik de doelstelling van de opdracht gever kan vaststellen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- TEUN: Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
-  - We hebben de keydrivers samengevoegd als team gezorgt dat superlatieven weg zijn en zo over het algemeen beter zijn
+- Teun: Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
+  - We hebben de keydrivers samengevoegd als team gezorgt dat superlatieven weg zijn en zo over het algemeen beter zijn.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -151,14 +140,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de requirments op te zetten heb ik een beter idee van de doelstelling van de opdracht gever
+- Door de requirments op te zetten heb ik een beter idee van de doelstelling van de opdracht gever.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- TEUN: Niet functionele requirements en functionele requirements soms omgedraaid (F2 bijvoorbeeld). Gebroken markdown bij F9, ook dit is een NF requirement bij de functionele. Requirements voor nu opstellen, niet voor het gehele project.
-  - Ik heb de requiremenst hierna opnieuw opgesteld met meer een focus op de simulatie, dit werd makkelijker omdat we na deze feedback amar voor de update de Keydrivers hadden opgesteld
+- Teun: Niet functionele requirements en functionele requirements soms omgedraaid (F2 bijvoorbeeld). Gebroken markdown bij F9, ook dit is een NF requirement bij de functionele. Requirements voor nu opstellen, niet voor het gehele project.
+  - Ik heb de requiremenst hierna opnieuw opgesteld met meer een focus op de simulatie, dit werd makkelijker omdat we na deze feedback amar voor de update de Keydrivers hadden opgesteld.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -169,11 +158,11 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik een beter beeld gekregen van de opdracht
+- Door dit te doen heb ik een beter beeld gekregen van de opdracht.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Ziet er netjes uit
+- Team: Ziet er netjes uit
   - NVT
 
 - Stuurt de controller data naar de Simulatie of leest de simulatie de controller uit
@@ -192,13 +181,13 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door het ontwikkel document te maken hebben we laten zien dat we de vereiste en doelstelling kunnen vaststellen
+- Door het ontwikkel document te maken hebben we laten zien dat we de vereiste en doelstelling kunnen vaststellen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://Github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ---
 
@@ -209,17 +198,17 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de usecases te makken hebben we laten zien dat we de doelstelling van het project kunnen vast zetten en laten zien dat we weten hoe de gebruiker ons product gaat gebruiken
+- Door de usecases te makken hebben we laten zien dat we de doelstelling van het project kunnen vast zetten en laten zien dat we weten hoe de gebruiker ons product gaat gebruiken.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Lees indien iets AI-generated is beter door, nu worden er allerlei dingen bij verzonnen die niet relevant zijn.
   - Ik ga AI minder vertrouwen :(
 
-- TEUN: Usecases op zich prima, we gaan deze gebruiken, beetje nutteloos om nog meer tijd te steken hierin
+- Teun: Usecases op zich prima, we gaan deze gebruiken, beetje nutteloos om nog meer tijd te steken hierin
   - Use cases met rust gelaten, omdat deze prima waren en we er niet meer tijd in wilden steken.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -230,12 +219,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen hebben we een beter beeld gekregen van de opdracht
+- Door dit te doen hebben we een beter beeld gekregen van de opdracht.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO TEUN
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
+- Geen vragen.
 
 ---
 
@@ -246,18 +237,18 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen hebben we als team een goed idee van de doelstelling van de opdracht gever
+- Door dit te doen hebben we als team een goed idee van de doelstelling van de opdracht gever.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- TEUN: Rationale bij maximale snelheid is onnodig. 
-  - we hebben dat weg ge haald
-- TEUN: De grijparm ontbreekt in de requirements. Er moet een plan worden gemaakt om de requirements te behalen. Requirements moeten worden geüpdatet, inclusief connectie tussen het dashboard en Gazebo.
-  - we hebben als team ervoor besloten om geen grijparm te maken omdat dat buiten de scope van dit project viel maar we zijn wel verder gegaan met het dashboard. 
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Teun: Rationale bij maximale snelheid is onnodig. 
+  - We hebben dat weg ge haald
+- Teun: De grijparm ontbreekt in de requirements. Er moet een plan worden gemaakt om de requirements te behalen. Requirements moeten worden geüpdatet, inclusief connectie tussen het dashboard en Gazebo.
+  - We hebben als team ervoor besloten om geen grijparm te maken omdat dat buiten de scope van dit project viel maar we zijn wel verder gegaan met het dashboard. 
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -268,14 +259,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de keydrivers te makken hebben we laten zien dat we de doelstelling van de opdrachtgever kunnen vaststellen
+- Door de keydrivers te makken hebben we laten zien dat we de doelstelling van de opdrachtgever kunnen vaststellen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- TEUN: Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
+- Teun: Veel key drivers, ze bepalen de scope, hoe meer, hoe groter de scope. Training en oefeningen passen wel bij elkaar. Gebruikersvriendelijkheid updatebaar passen wel bij elkaar.Schaalbaarheid en technische betr. en modulair. combineer sommige key driversHet hoeft niet heel realistisch te zijn als de training maar in de praktijk kan worden toegepast.Pas op met 'cruciaal', 'beste'. Pas op met superlatieven.Invulling weghalen over realisme in beschrijving.- Teun
   - Wij hebben vervolgens de keydrivers van 8 naar 3 samengevoegd
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -291,23 +282,40 @@ Indicatoren:
 
 **Leeruitkomst 2 Persoonlijke opdrachten:**
 
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Testplan | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen kan ik makkelijk laten zien dat mijn nieuwe functie nog het zelfde werkt als mijn oude functie.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: ziet er heel erg goed en proffesioneel uit, je moet wel bij de inleiding referen naar de key drivers, waarom je dit doet.
+  - Helaas heb ik geen tijd meer om dit goed te verwerken maar ik neem deze feedback wel mee naar volgende projecten en heb gezorgt dat mijn team hier ook op de hoogde van was zodat zij een beter eerste product leveren.
+- Geen vragen.
+
+---
+
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
 | Usecase Diagram | Ik heb voor ons project de Usecase Diagram opgezet | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/blob/main/docs/Usecases/Usecasesdiagram.puml) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de usecase diagram op te zetten heb ik laten zien dat ik een model kan maken gebasseerd op de usecases
+- Door de usecase diagram op te zetten heb ik laten zien dat ik een model kan maken gebasseerd op de usecases.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - TEAM: HOI lARS VOOR USECASES ZIJN ACTORS NODIG!! DE ONDERZEEER KAN OOK EEN ACTOR ZIJN, OVERWEEG BRAD PITT GROETJES,TEAM oCEANgATE
   - Ik heb actors toegeovegd in mijn nieuwe model
- //TODO TEUN
- - Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+ - Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
+- Geen vragen.
 
 ---
 
@@ -318,17 +326,17 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Ik heb door dit oject model te maken een ontwerp gemaakt op basis van de requirements
+- Ik heb door dit oject model te maken een ontwerp gemaakt op basis van de requirements.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Teveel vooruitgedacht, te veel gets, te weinig sets.
   - Ik heb hierna nog een keer dit model gemaakt wat meer in het nu is
- //TODO TEUN
- - Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+ - Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
+- Geen vragen.
 
 ---
 
@@ -341,7 +349,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te maken heb ik laten zien dat ik grafische representaties kan maken van hoe code werkt voor het project
+- Door dit te maken heb ik laten zien dat ik grafische representaties kan maken van hoe code werkt voor het project.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
@@ -350,7 +358,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Om je model er beter uit te laten zien zijn er verschillende mogelijkheden, maar de makkelijkste is exporteren naar drawio en dan handmatig neer zetten
   - Voortaan zou ik het eerst exporteren naar drawio om het leestbaar te maken voordat ik een png ervan maak, ook ga ik onderzoek doen hoe ik dit met code perfect kan doen de eerste keer
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -361,14 +369,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door deze SSE te maken was het voor mijn team heel makkelijk om data van de backend naar de frontend te krijgem
+- Door deze SSE te maken was het voor mijn team heel makkelijk om data van de backend naar de frontend te krijgem.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Probeer wat meer DRY te gebruiken maar zet er goed uit, het heeft nu geen zin om tijd in DRY te steken maar voor de volgende keer proberen
   - Voortaan zal ik, asl er tijd is, zorgen dat er minder duplicate code is.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -379,13 +387,13 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door het ontwikkel document te maken hebben we laten zien dat we grafische representaties kunnen maken van onze requiremenst en usecases
+- Door het ontwikkel document te maken hebben we laten zien dat we grafische representaties kunnen maken van onze requiremenst en usecases.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ---
 
@@ -399,11 +407,10 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO TEUN
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -414,15 +421,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen hebben we als team laten zien dat we een ontwerp kunnen maken op basis van requirements en usecases
+- Door dit te doen hebben we als team laten zien dat we een ontwerp kunnen maken op basis van requirements en usecases.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO TEUN
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -446,29 +452,30 @@ Indicatoren:
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- In de presentatie hebben mijn team en ik advies gegeven
+- In de presentatie hebben mijn team en ik advies gegeven.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO NICK TEAM TEAM BART JAN
-- Geen vragen
+- Nick & Bart: Goed
+  - Goed
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| PO Gesprekken | Mijn team en ik geven elke 2 weken een presentatie aan onze Product Owner | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO%20Gesprek.md) |
+| PO Gesprekken | Mijn team en ik geven elke 2 weken een presentatie aan onze Product Owner | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/docs/presentaties)  |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Tijdens deze gesprekken adviseren wij de opdracht gever
+- Tijdens deze gesprekken adviseren wij de opdracht gever.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ---
 
@@ -495,14 +502,14 @@ Indicatoren:
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- DOor dit te doen heb ik laten zien dat ik Python code kan
+- Door dit te doen heb ik laten zien dat ik Python code kan.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Meerveld: Heel erg bedanklt voor het maken en het juiste antwoord
-  - Ben gewoon beter
+- Meerveld: Heel erg bedanklt voor het maken en het juiste antwoord.
+  - Ben gewoon beter :).
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -513,14 +520,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te maken heb ik laten zien dat ik Concepts, Iterators/ranges en lamdba functies begrijp
+- Door dit te maken heb ik laten zien dat ik Concepts, Iterators/ranges en lamdba functies begrijp.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Teun: Maak een MD met de Magic Values/ Regex en andere keuzes uitgelegd zodat je hier later naar terug kan komen
   - Nog niet verwerkt ga dat ook niet doen dit semester
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -531,19 +538,19 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de Vision opdracht te maken heb ik ervaring gekregen met vision en python
+- Door de Vision opdracht te maken heb ik ervaring gekregen met vision en python.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
-- Geen vragen
+- Geen feedback.
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Verlichting | Ik heb voor het project een plugin gemaakt waarmee je de lampen op de onderzeeer kan besturen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/sprint-6/Gazebo) |
+| Verlichting | Ik heb voor het project een plugin gemaakt waarmee je de lampen op de onderzeeer kan besturen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Gazebo/Lights.cc) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -553,24 +560,24 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Net al bij tom gezien dat je voor de lamp de hele lamp moet maken, ziet er goed uit
   - Ziet er goed uit
-- Geen vragen
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Catch2 testen | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
+| Testplan | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen kan ik makkelijk laten zien dat mijn nieuwe functie nog het zelfde werkt als mijn oude functie
+- Door dit te doen kan ik makkelijk laten zien dat mijn nieuwe functie nog het zelfde werkt als mijn oude functie.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- NICK: ziet er heel erg goed en proffesioneel uit, je moet wel bij de inleiding referen naar de key drivers, waarom je dit doet.
-  - helaas heb ik geen tijd meer om dit goed te verwerken maar ik neem deze feedback wel mee naar volgende projecten en heb gezorgt dat mijn team hier ook op de hoogde van was zodat zij een beter eerste product leveren
-- Geen vragen
+- Nick: Ziet er heel erg goed en proffesioneel uit, je moet wel bij de inleiding referen naar de key drivers, waarom je dit doet.
+  - Helaas heb ik geen tijd meer om dit goed te verwerken maar ik neem deze feedback wel mee naar volgende projecten en heb gezorgt dat mijn team hier ook op de hoogde van was zodat zij een beter eerste product leveren
+- Geen vragen.
 
 ---
 
@@ -581,17 +588,17 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de Algo opdrachte te maken heb ik meer ervaring gekregen met Big O, search algorithmes, datastructuren & pathfinding
+- Door de Algo opdrachte te maken heb ik meer ervaring gekregen met Big O, search algorithmes, datastructuren & pathfinding.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- ALGO 1 geen feedback
-- ALGO 2 NICK: was mooi geweest om je eigen functies te gebruiken voor leeg en vol
+- ALGO 1 Geen feedback
+- ALGO 2 Nick: was mooi geweest om je eigen functies te gebruiken voor leeg en vol
   - volgende keer zou ik nadat ik mijn code heb geschreven kijken naar eventuele functies die mijn code beter maken door middel van dry
-- ALDS 3 NICK: ziet er goed uit code klopt redeneringen zijn correcet
+- ALDS 3 Nick: ziet er goed uit code klopt redeneringen zijn correcet
   - Ik begrijp het
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -602,20 +609,20 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de OpenCV opdrachten te maken heb ik ervaring gekregen met vision 
+- Door de OpenCV opdrachten te maken heb ik ervaring gekregen met vision.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- NICK  de out put ziet er goed uit maar indehoudelijk geen feedback
-  - Ik ga proberen nog langs bart te gaan om hier optijd feedback op te krijgen
-- Geen vragen
+- Nick: De out put ziet er goed uit maar indehoudelijk geen feedback
+  - Ik ga proberen nog langs Bart te gaan om hier optijd feedback op te krijgen
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Gazebo opdrachten | Ik heb de Gazebo opdrachten gemaakt | [Canvas](https://canvas.hu.nl/courses/44572/assignments/343364)[canvas2](https://canvas.hu.nl/courses/44572/assignments/343365) |
+| Gazebo opdrachten | Ik heb de Gazebo opdrachten gemaakt | [Canvas](https://canvas.hu.nl/courses/44572/assignments/343364)[Canvas 2](https://canvas.hu.nl/courses/44572/assignments/343365) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -625,60 +632,60 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Bart: Netjes!
   - Denk dat het wel goed is
-- Geen vragen
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| STL opdrachten | Ik heb de STL opdracht gemaakt, hierdoor heb ik meer ervaring met de Ranges gekregen | [Github Folder](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/stl/src) |
+| STL opdrachten | Ik heb de STL opdracht gemaakt, hierdoor heb ik meer ervaring met de Ranges gekregen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/stl/src) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik meer geleerd van de STL en ben ik een beter developer geworden
+- Door dit te doen heb ik meer geleerd van de STL en ben ik een beter developer geworden.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- NICK: Je count functie had makkelijke gekund door de ingebouwde functies, maar voor de rest ziet het er goed uit, doe je geen gekke dingen en maak je goed gebruik van de stl
+- Nick: Je count functie had makkelijke gekund door de ingebouwde functies, maar voor de rest ziet het er goed uit, doe je geen gekke dingen en maak je goed gebruik van de stl
   - Voor de volgende keer weet ik dat ik nog beter moet zoeken naar verschillende handige STL functie.
-- Geen vragen
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Gazebo wereld | Ik heb voor mijn team een wereld gemaakt waarin we een water level hebben & een eiland met een grot zodat we onze robot kunnen testen | [.SDF file](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Gazebo/OceanGate.sdf) |
+| Gazebo wereld | Ik heb voor mijn team een wereld gemaakt waarin we een water level hebben & een eiland met een grot zodat we onze robot kunnen testen | [.SDF](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Gazebo/OceanGate.sdf) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik laten zien dat ik begrijp hoe ik een sdf maak en werk met de algemaakte plugin
+- Door dit te doen heb ik laten zien dat ik begrijp hoe ik een sdf maak en werk met de algemaakte plugin.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Ziet er goed uit
   - Ziet er goed uit
-- geen vragen
+- geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Controller Plugin | Ik heb voor het project een plugin geschreven waarmee mijn team een controller kan uitlezen tijdens de simulatie | [Github Folder](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Gazebo) |
+| Controller Plugin | Ik heb voor het project een plugin geschreven waarmee mijn team een controller kan uitlezen tijdens de simulatie | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Gazebo) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik laten zien dat ik een plugin kan schrijven voor Gazebo
+- Door dit te doen heb ik laten zien dat ik een plugin kan schrijven voor Gazebo.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Probeer magic nummers weg te halen (bvb bij de byte arr van de controller uitlezen)
-  - ik heb die veranderd voor 
+  - Ik heb die veranderd voor 
 - TEAM: comments in engels hardcode data weglet wat meer op spelling en sommige returns zijn vaagdoxygen comments bij lambda maar ga daarmee langs een docentthx Luuc
-  - Ik heb de comments naar het engels gezet en gechecked op spelling, had helas nog niet alle hardcoded data weggehaalt waardoor nick het nog een eer zei later
-- Geen vragen
+  - Ik heb de comments naar het engels gezet en gechecked op spelling, had helas nog niet alle hardcoded data weggehaalt waardoor Nick het nog een eer zei later
+- Geen vragen.
 
 ---
 
@@ -690,12 +697,12 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de Defintion of Done op te zetten weten we wanneer een onderdeel af is en kunnen we dus verder met het volgende
+- Door de Defintion of Done op te zetten weten we wanneer een onderdeel af is en kunnen we dus verder met het volgende.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
-- Geen vragen
+- Geen feedback.
+- Geen vragen.
 
 ---
 
@@ -713,6 +720,23 @@ Indicatoren:
 ---
 **Leeruitkomst 5 Persoonlijke opdrachten:**
 
+
+| Portfolio-item | Beschrijving | Bewijslast |
+| --- | --- | --- |
+| Testplan | Ik heb voor de functies waar het van toepassing is Catch2 testen geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/Test/ControllerPlugin) |
+
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+- Door dit te doen kan ik makkelijk laten zien dat mijn nieuwe functie nog het zelfde werkt als mijn oude functie.
+
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+- Nick: ziet er heel erg goed en proffesioneel uit, je moet wel bij de inleiding referen naar de key drivers, waarom je dit doet.
+  - Helaas heb ik geen tijd meer om dit goed te verwerken maar ik neem deze feedback wel mee naar volgende projecten en heb gezorgt dat mijn team hier ook op de hoogde van was zodat zij een beter eerste product leveren
+- Geen vragen.
+
+---
+
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
 | Dev Container | Ik heb de Dev Container Gemaakt voor mijn team | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/.devcontainer) |
@@ -723,9 +747,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- NICK: heel professioneel opgezet, goed nagedacht over behoeften van het team. Helder gedocumenteerd
+- Nick: Heel professioneel opgezet, goed nagedacht over behoeften van het team. Helder gedocumenteerd
   - Goed
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -736,14 +760,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door deze template te makenb heb ik laten zien dat ik een development omgeving kan op zetten voor mijn team waardoor ze sneller door kunnen gaan met programeren
+- Door deze template te makenb heb ik laten zien dat ik een development omgeving kan op zetten voor mijn team waardoor ze sneller door kunnen gaan met programeren.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Ziet er helemaal goed uit, je kan dit goed gebruiken voor Beheren
   - NVT
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -754,44 +778,44 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik gezorgd dat mijn controller plugin door andere mensen later gebruikt kan worden
+- Door dit te doen heb ik gezorgd dat mijn controller plugin door andere mensen later gebruikt kan worden.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Nick: ziet er goed uit
-  - ziet er goed uit
-- Geen vragen
+- Nick: Ziet er goed uit
+  - Ziet er goed uit
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Docker | Ik heb voor dat ik begon met DevContainer me eigen docker file gemaakt om C++ code overal te runnen | [Github folder](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/HelloWorld) |
+| Docker | Ik heb voor dat ik begon met DevContainer me eigen docker file gemaakt om C++ code overal te runnen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/HelloWorld) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik laten zien dat ik een ontwikken omgeving overal kan opzetten en gebruik kan maken van de debug tools
+- Door dit te doen heb ik laten zien dat ik een ontwikken omgeving overal kan opzetten en gebruik kan maken van de debug tools.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
-- Geen vragen
+- Geen feedback.
+- Geen vragen.
 
 ---
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| DevContainer | Ik heb een devcontainer opgezet en daarin code geschreven | [Github folder](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/DevContainer) |
+| DevContainer | Ik heb een devcontainer opgezet en daarin code geschreven | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/DevContainer) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de Devcontainer opdracht te maken heb ik laten zien dat ik dit kan toepassen voor mijn eigen gebruik
+- Door de Devcontainer opdracht te maken heb ik laten zien dat ik dit kan toepassen voor mijn eigen gebruik.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback
-- Geen vragen
+- Geen feedback.
+- Geen vragen.
 
 ---
 
@@ -803,13 +827,13 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te documenteren heb ik laten zien dat ik een kan documenteren hoe iets nu werkt zodat dit later nagedaan kan worden
+- Door dit te documenteren heb ik laten zien dat ik een kan documenteren hoe iets nu werkt zodat dit later nagedaan kan worden.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- NICK: Prima
+- Nick: Prima
   - Prima
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -820,13 +844,13 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Deze documentatie zorgt ervoor dat we makkelijk kunnen testen als de plugin nog werkt
+- Deze documentatie zorgt ervoor dat we makkelijk kunnen testen als de plugin nog werkt.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Nick: prima goed gedocumenteerd
+- Nick: Prima goed gedocumenteerd
   - Prima goed gedocumenteerd
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -836,14 +860,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 | Ontwikkel Document | Wij als team werken dit project aan een ontwikkel document waar aan het einde van het project de opracht gever onze keuzes kan lezen | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/Opdracht/OntwikkelDocument.md) |
 
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- 
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst. <!-- omit in toc -->
+- Door het ontwikkel document te maken hebben we laten zien dat we de randvoorwaarden en requirements kunnen opstellen in overleg met de opdracht gever.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ### Leeruitkomst 6 Toekomstgericht organiseren
 
@@ -867,9 +891,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
@@ -877,32 +901,31 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door een scrumboard te gebruiken zorgen we ervoor dat het project gestructureerd opgezet, uitgevoerd en opgeleverd
+- Door een scrumboard te gebruiken zorgen we ervoor dat het project gestructureerd opgezet, uitgevoerd en opgeleverd.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO TEUN
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint verslagen](hhttps://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/docs/Sprintverslagen) |
+| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint Verslagen](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/docs/Sprintverslagen) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen hebben we laten zien dat we onze sprints kunnen reviewen en daardoor een beter sprint kunnen maken
+- Door dit te doen hebben we laten zien dat we onze sprints kunnen reviewen en daardoor een beter sprint kunnen maken.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ---
 
@@ -921,11 +944,11 @@ Indicatoren:
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Klimaat Examen | Ik heb het klimaat examen gemaakt | [LinkedIn](https://www.linkedin.com/school/hogeschool-utrecht/posts/?feedView=all) |
+| Klimaat Examen | Ik heb het klimaat examen gemaakt | [LinkedIn](https://www.linkedin.com/posts/hogeschool-utrecht_klimaatexamen-duurzaamonderwijs-samenduurzaam-ugcPost-7329099924053106688-lMNh/?utm_source=share&utm_medium=member_android&rcm=ACoAACk_FrwBKhZIrVPEKeFhT5xCe9nXblF7LqU) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit klimaat examen te maken heb ik laten zien dat het klimaat mij interreseert
+- Door dit klimaat examen te maken heb ik laten zien dat het klimaat mij interreseert.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
@@ -946,21 +969,21 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de Presentatie te geven ben ik actief bezig geweest met de relatie tussen mij en de stateholder actief te onderhouden
+- Door de Presentatie te geven ben ik actief bezig geweest met de relatie tussen mij en de stateholder actief te onderhouden.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Luuc: Ziet er goed uit.
-  - ziet er goed uit
-- Tim: bronnen lijst apa stijl en [n] notes presenatatie bronnen dia
+  - Ziet er goed uit
+- Tim: Bronnen lijst apa stijl en [n] notes presenatatie bronnen dia
   - Ik heb de bronnen toegevoed aan mijn onderzoek, samen met notes en het onderzoek aan de presentatie, maar geen bronnen per dia vermeld
-- Nick: geef wat meer context maar je wist je code goed
+- Nick: Geef wat meer context maar je wist je code goed
   - Voortaan aan het begin wat meer context geven
-- Tom: wat meer context aan het begin zou fijn zijn geweest 
+- Tom: Wat meer context aan het begin zou fijn zijn geweest 
   - Voortaan aan het begin wat meer context geven
-- Rick: text was te klein
+- Rick: Text was te klein
   - Voortaan aan de text testen zodat ik weet dat het groot genoeg is voor iedereen achterin
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -973,30 +996,30 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de gesprekken bij te houwen kunnen we later terug komen erop en er data uithalen
+- Door de gesprekken bij te houwen kunnen we later terug komen erop en er data uithalen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint verslag ](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/Sprint-verslag.md) |
+| Sprint verslagen | Wij maken als team elke sprint een sprint verslag | [Sprint Verslag](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/tree/main/docs/Sprintverslagen) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen hebben we laten zien dat we onze sprints kunnen reviewen en daardoor een beter sprint kunnen maken
+- Door dit te doen hebben we laten zien dat we onze sprints kunnen reviewen en daardoor een beter sprint kunnen maken.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
 
 ---
 
@@ -1018,7 +1041,7 @@ Indicatoren:
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik laten zien dat ik mij kan voorbereiden op de LoopbaanKeuzes
+- Door dit te doen heb ik laten zien dat ik mij kan voorbereiden op de LoopbaanKeuzes.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
@@ -1029,7 +1052,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
     - THX
   - De stagebedrijvenmiddag op 24 april is mogelijk een goede optie, maar je kunt ook op Onstage kijken voor vacatures en op de stagepagina van Canvas kun je bedrijven vinden waar eerder studenten van TI hebben stage gelopen https://canvas.hu.nl/files/4898457/download?download_frd=1
     - gedaan
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -1040,7 +1063,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen ben ik bezig geweeste met het voorbereiden op mijn SLBkeuze
+- Door dit te doen ben ik bezig geweeste met het voorbereiden op mijn SLBkeuze.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
@@ -1062,7 +1085,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
   - Ik heb nog niet echt een beeld van je nu.... Ik lees te veel waardoor het een brei is, en ik niet weet wat jouw sterke punten zijn...
     - Ik heb mijn eigen projecten toegevoegd
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -1071,7 +1094,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Team Contract | We hebben als team een contract opgezet met elkaar | [Team Contract](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/teamcontract.md) |
+| Team Contract | We hebben als team een contract opgezet met elkaar | [Team Contract](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/overig/teamcontract.md) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -1079,8 +1102,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO
-- Geen vragen
+- Geen feedback.
+- Geen vragen.
 
 ---
 
@@ -1102,14 +1125,14 @@ Indicatoren:
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit te doen heb ik laten zien dat ik een onderzoek kan doen naar de problemen die veroorzaakt worden en hoe ik die kan oplossen
+- Door dit te doen heb ik laten zien dat ik een onderzoek kan doen naar de problemen die veroorzaakt worden en hoe ik die kan oplossen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Dit is heel erg handig, wij zelf hadden hier ook een probleem mee dus dit is zeker handig om te documeteren
   - Volgende keer zou ik het weer doen.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -1120,25 +1143,25 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- DOor dit te doen heb ik laten zien dat ik door onderzoek de beste oplossing kan vinden voor een probleem
+- Door dit te doen heb ik laten zien dat ik door onderzoek de beste oplossing kan vinden voor een probleem.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Probeer wat meer DRY te gebruiken maar zet er goed uit, het heeft nu geen zin om tijd in DRY te steken maar voor de volgende keer proberen
   - Voortaan zal ik, asl er tijd is, zorgen dat er minder duplicate code is.
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| Klimaat Examen | Ik heb het klimaat examen gemaakt | [Linkedin](https://www.linkedin.com/school/hogeschool-utrecht/posts/?feedView=all) |
+| Klimaat Examen | Ik heb het klimaat examen gemaakt | [Linkedin](https://www.linkedin.com/posts/hogeschool-utrecht_klimaatexamen-duurzaamonderwijs-samenduurzaam-ugcPost-7329099924053106688-lMNh/?utm_source=share&utm_medium=member_android&rcm=ACoAACk_FrwBKhZIrVPEKeFhT5xCe9nXblF7LqU) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit klimaat examen te maken heb ik laten zien dat het klimaat mij interreseert
+- Door dit klimaat examen te maken heb ik laten zien dat het klimaat mij interreseert.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
@@ -1154,25 +1177,25 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item | Beschrijving | Bewijslast |
 | --- | --- | --- |
-| DeepDive | Ik ben begonnen met mijn DeepDive | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/deepdive) |
+| DeepDive | Ik heb op dinsdag 20 mei de DeepDive Presentatie gegeven aan de klas  | [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-personal-repo-LarsLT/tree/main/Opdrachten/School/deepdive) |
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door de deepdive te doen ben ik bezig geweest met een onderzoek, stel ik kritische vragen om relavanten informatie te verzamelen & die informatie te analyseren en daarmee me keuzes onderbouwen
+- Door de deepdive te doen ben ik bezig geweest met een onderzoek, stel ik kritische vragen om relavanten informatie te verzamelen & die informatie te analyseren en daarmee me keuzes onderbouwen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Luuc: Ziet er goed uit.
-  - ziet er goed uit
+  - Ziet er goed uit
 - Tim: bronnen lijst apa stijl en [n] notes presenatatie bronnen dia
   - Ik heb de bronnen toegevoed aan mijn onderzoek, samen met notes en het onderzoek aan de presentatie, maar geen bronnen per dia vermeld
-- Nick: geef wat meer context maar je wist je code goed
+- Nick: Geef wat meer context maar je wist je code goed
   - Voortaan aan het begin wat meer context geven
-- Tom: wat meer context aan het begin zou fijn zijn geweest 
+- Tom: Wat meer context aan het begin zou fijn zijn geweest 
   - Voortaan aan het begin wat meer context geven
-- Rick: text was te klein
+- Rick: Text was te klein
   - Voortaan aan de text testen zodat ik weet dat het groot genoeg is voor iedereen achterin
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -1185,13 +1208,13 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit onderzoek te doen heb ik laten zien dat ik data op een gestructureerde manier kan verzamelen
+- Door dit onderzoek te doen heb ik laten zien dat ik data op een gestructureerde manier kan verzamelen.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Nick: Overzichtelijk ziet er prima uit
-  - ziet er prima uit
-- Geen vragen
+  - Ziet er prima uit
+- Geen vragen.
 
 ---
 
@@ -1202,15 +1225,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door dit onderzoek te doen heb ik laten zien dat ik de wensen van de opdrachtgever centraal kan stellen en de relavante informatie op een relevanten en gestuctureerde manier te verzamelen en analyzeren
+- Door dit onderzoek te doen heb ik laten zien dat ik de wensen van de opdrachtgever centraal kan stellen en de relavante informatie op een relevanten en gestuctureerde manier te verzamelen en analyzeren.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO LUUC / TEUN
-- Feedback van teun op github
-  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
-- Geen vragen
+- Geen vragen.
 
 ---
 
@@ -1221,10 +1243,10 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-- Door het ontwikkel document te maken hebben we laten zien dat we praktijkgericht probleem kunnen oplossen door: onderzoek, kritische vragen te stellen & de informatie die daaruit komt gestructureerd kunnen analyseren reken houdend met maatschappelijke staandaarden en ethische aspecten
+- Door het ontwikkel document te maken hebben we laten zien dat we praktijkgericht probleem kunnen oplossen door: onderzoek, kritische vragen te stellen & de informatie die daaruit komt gestructureerd kunnen analyseren reken houdend met maatschappelijke staandaarden en ethische aspecten.
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Feedback van teun op github
-  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
-- Geen vragen
+- Feedback van Teun op github.
+  - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+- Geen vragen.
