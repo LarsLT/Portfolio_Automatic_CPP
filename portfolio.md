@@ -312,7 +312,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - TEAM: HOI lARS VOOR USECASES ZIJN ACTORS NODIG!! DE ONDERZEEER KAN OOK EEN ACTOR ZIJN, OVERWEEG BRAD PITT GROETJES,TEAM oCEANgATE
   - Ik heb actors toegeovegd in mijn nieuwe model
 
- - Feedback van Teun op github.
+- Feedback van Teun op github.
   - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
 - Geen vragen.
@@ -333,7 +333,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Teveel vooruitgedacht, te veel gets, te weinig sets.
   - Ik heb hierna nog een keer dit model gemaakt wat meer in het nu is
 
- - Feedback van Teun op github.
+- Feedback van Teun op github.
   - [Github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 
 - Geen vragen.
