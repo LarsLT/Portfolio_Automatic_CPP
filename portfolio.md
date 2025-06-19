@@ -118,7 +118,10 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Lees indien iets AI-generated is beter door, nu worden er allerlei dingen bij verzonnen die niet relevant zijn.
   - Ik ga AI minder vertrouwen :(
-//TODO feedback teun
+
+- TEUN: Usecases op zich prima, we gaan deze gebruiken, beetje nutteloos om nog meer tijd te steken hierin
+  - Use cases met rust gelaten, omdat deze prima waren en we er niet meer tijd in wilden steken.
+
 - Geen vragen
 
 ---
@@ -193,7 +196,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 - Geen vragen
 
 ---
@@ -209,7 +213,12 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO TEUN
+- Lees indien iets AI-generated is beter door, nu worden er allerlei dingen bij verzonnen die niet relevant zijn.
+  - Ik ga AI minder vertrouwen :(
+
+- TEUN: Usecases op zich prima, we gaan deze gebruiken, beetje nutteloos om nog meer tijd te steken hierin
+  - Use cases met rust gelaten, omdat deze prima waren en we er niet meer tijd in wilden steken.
+
 - Geen vragen
 
 ---
@@ -241,7 +250,13 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO TEUN
+- TEUN: Rationale bij maximale snelheid is onnodig. 
+  - we hebben dat weg ge haald
+- TEUN: De grijparm ontbreekt in de requirements. Er moet een plan worden gemaakt om de requirements te behalen. Requirements moeten worden geüpdatet, inclusief connectie tussen het dashboard en Gazebo.
+  - we hebben als team ervoor besloten om geen grijparm te maken omdat dat buiten de scope van dit project viel maar we zijn wel verder gegaan met het dashboard. 
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -289,6 +304,9 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - TEAM: HOI lARS VOOR USECASES ZIJN ACTORS NODIG!! DE ONDERZEEER KAN OOK EEN ACTOR ZIJN, OVERWEEG BRAD PITT GROETJES,TEAM oCEANgATE
   - Ik heb actors toegeovegd in mijn nieuwe model
  //TODO TEUN
+ - Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -307,6 +325,9 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Teveel vooruitgedacht, te veel gets, te weinig sets.
   - Ik heb hierna nog een keer dit model gemaakt wat meer in het nu is
  //TODO TEUN
+ - Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -362,7 +383,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
 - Geen vragen
 
 ---
@@ -378,6 +400,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Geen feedback //TODO TEUN
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -394,6 +419,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Geen feedback //TODO TEUN
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -438,7 +466,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO alle feedback verschillende opdrachten
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 - Geen vragen
 
 ---
@@ -506,7 +535,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO BART MORGEN
+- Geen feedback
 - Geen vragen
 
 ---
@@ -795,7 +824,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Nick: prima goed gedocumenteerd  //TODO NICK
+- Nick: prima goed gedocumenteerd
   - Prima goed gedocumenteerd
 - Geen vragen
 
@@ -812,7 +841,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback  //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
 - Geen vragen
 
 ### Leeruitkomst 6 Toekomstgericht organiseren
@@ -837,7 +867,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
 - Geen vragen
 
 | Portfolio-item | Beschrijving | Bewijslast |
@@ -850,7 +881,10 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO LUUC
+- Geen feedback //TODO TEUN
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -866,7 +900,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
 - Geen vragen
 
 ---
@@ -942,7 +977,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
 - Geen vragen
 
 ---
@@ -958,7 +994,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
 - Geen vragen
 
 ---
@@ -1170,6 +1207,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 - Geen feedback //TODO LUUC / TEUN
+- Feedback van teun op github
+  - [github](https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md)
+
 - Geen vragen
 
 ---
@@ -1185,5 +1225,6 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-- Geen feedback //TODO ALLE FEEDBACK DOCU
+- Feedback van teun op github
+  - [github]https://github.com/TICT-TV2SE4-24-3-V/setup-project-repo-oceangate/blob/main/docs/OpdrachtGever/PO_Feedback.md
 - Geen vragen
